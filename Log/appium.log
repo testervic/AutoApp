@@ -1,0 +1,1037 @@
+2019-12-10 09:38:44:601 [Appium] Welcome to Appium v1.15.1
+2019-12-10 09:38:44:603 [Appium] Non-default server args:
+2019-12-10 09:38:44:604 [Appium]   port: 4752
+2019-12-10 09:38:44:605 [Appium]   bootstrapPort: 4779
+2019-12-10 09:38:44:605 [Appium]   sessionOverride: true
+2019-12-10 09:38:44:606 [Appium]   logFile: /Users/vic/work/WORK/Work/Py_script/appium-master/log/appium.log
+2019-12-10 09:38:44:606 [Appium]   udid: emulator-5554
+2019-12-10 09:38:44:607 [Appium] Deprecated server args:
+2019-12-10 09:38:44:608 [Appium]   -U,--udid => --default-capabilities '{"udid":"emulator-5554"}'
+2019-12-10 09:38:44:608 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-12-10 09:38:44:609 [Appium]   udid: emulator-5554
+2019-12-10 09:38:44:666 [Appium] Appium REST http interface listener started on 0.0.0.0:4752
+2019-12-10 09:38:44:747 [HTTP] --> POST /wd/hub/session
+2019-12-10 09:38:44:747 [HTTP] {"capabilities":{"firstMatch":[{"appium:udid":"emulator-5554","appium:app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","appium:platformVersion":"6.0.1","platformName":"android","appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554","appium:noReset":"False","appium:noSign":"True","appium:unicodeKeyboard":"True","appium:resetKeyboard":"True"}]},"desiredCapabilities":{"udid":"emulator-5554","app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","platformVersion":"6.0.1","platformName":"android","automationName":"uiautomator2","deviceName":"emulator-5554","noReset":"False","noSign":"True","unicodeKeyboard":"True","resetKeyboard":"True"}}
+2019-12-10 09:38:44:750 [W3C] Calling AppiumDriver.createSession() with args: [{"udid":"emulator-5554","app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","platformVersion":"6.0.1","platformName":"android","automationName":"uiautomator2","deviceName":"emulator-5554","noReset":"False","noSign":"True","unicodeKeyboard":"True","resetKeyboard":"True"},null,{"firstMatch":[{"appium:udid":"emulator-5554","appium:app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","appium:platformVersion":"6.0.1","platformName":"android","appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554","appium:noReset":"False","appium:noSign":"True","appium:unicodeKeyboard":"True","appium:resetKeyboard":"True"}]}]
+2019-12-10 09:38:44:751 [BaseDriver] Event 'newSessionRequested' logged at 1575970724751 (17:38:44 GMT+0800 (China Standard Time))
+2019-12-10 09:38:44:760 [Appium] Could not parse W3C capabilities: 'noReset' must be of type boolean
+2019-12-10 09:38:44:761 [Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
+2019-12-10 09:38:44:762 [BaseDriver] The capabilities ["udid","app","platformVersion","automationName","deviceName","noReset","noSign","unicodeKeyboard","resetKeyboard"] are not standard capabilities and should have an extension prefix
+2019-12-10 09:38:44:764 [Appium] Could not parse fixed W3C capabilities: 'noReset' must be of type boolean. Falling back to JSONWP protocol
+2019-12-10 09:38:45:046 [Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+2019-12-10 09:38:45:049 [BaseDriver] Creating session with MJSONWP desired capabilities: {
+2019-12-10 09:38:45:050 [BaseDriver]   "udid": "emulator-5554",
+2019-12-10 09:38:45:050 [BaseDriver]   "app": "/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk",
+2019-12-10 09:38:45:051 [BaseDriver]   "platformVersion": "6.0.1",
+2019-12-10 09:38:45:051 [BaseDriver]   "platformName": "android",
+2019-12-10 09:38:45:051 [BaseDriver]   "automationName": "uiautomator2",
+2019-12-10 09:38:45:051 [BaseDriver]   "deviceName": "emulator-5554",
+2019-12-10 09:38:45:052 [BaseDriver]   "noReset": "False",
+2019-12-10 09:38:45:052 [BaseDriver]   "noSign": "True",
+2019-12-10 09:38:45:053 [BaseDriver]   "unicodeKeyboard": "True",
+2019-12-10 09:38:45:053 [BaseDriver]   "resetKeyboard": "True"
+2019-12-10 09:38:45:053 [BaseDriver] }
+2019-12-10 09:38:45:056 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-12-10 09:38:45:056 [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-12-10 09:38:45:057 [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-12-10 09:38:45:057 [BaseDriver] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
+2019-12-10 09:38:45:063 [BaseDriver] Session created with session id: 3874698b-ca33-46e1-a972-6c79bb06a51c
+2019-12-10 09:38:45:115 [BaseDriver] Using local app '/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk'
+2019-12-10 09:38:45:116 [UiAutomator2] Checking whether app is actually present
+2019-12-10 09:38:45:129 [ADB] Found 1 'build-tools' folders under '/Users/vic/work/androidSDK/android-sdk-macosx' (newest first):
+2019-12-10 09:38:45:129 [ADB]     /Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3
+2019-12-10 09:38:45:130 [ADB] Using 'adb' from '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb'
+2019-12-10 09:38:45:131 [AndroidDriver] Retrieving device list
+2019-12-10 09:38:45:132 [ADB] Trying to find a connected android device
+2019-12-10 09:38:45:133 [ADB] Getting connected devices...
+2019-12-10 09:38:45:159 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2019-12-10 09:38:45:160 [AndroidDriver] Using device: emulator-5554
+2019-12-10 09:38:45:163 [ADB] Using 'adb' from '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb'
+2019-12-10 09:38:45:163 [ADB] Setting device id to emulator-5554
+2019-12-10 09:38:45:165 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2019-12-10 09:38:45:195 [ADB] Current device property 'ro.build.version.sdk': 23
+2019-12-10 09:38:45:195 [ADB] Device API level: 23
+2019-12-10 09:38:45:196 [AndroidDriver] Parsing package and activity from app manifest
+2019-12-10 09:38:45:199 [ADB] Using the alternative activity name detection method because of: Could not find 'apkanalyzer' in ["/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/emulator/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/bin/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/vic/work/androidSDK/android-sdk-macosx'?
+2019-12-10 09:38:45:201 [ADB] Using 'aapt' from '/Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3/aapt'
+2019-12-10 09:38:45:201 [ADB] Extracting package and launch activity from manifest
+2019-12-10 09:38:45:271 [ADB] Package name: 'com.jm.android.jumei'
+2019-12-10 09:38:45:272 [ADB] Main activity name: 'com.jm.android.jumei.home.activity.StartActivity'
+2019-12-10 09:38:45:272 [AndroidDriver] Parsed package and activity are: com.jm.android.jumei/com.jm.android.jumei.home.activity.StartActivity
+2019-12-10 09:38:45:273 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2019-12-10 09:38:45:286 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2019-12-10 09:38:45:306 [AndroidDriver] Pushing settings apk to device...
+2019-12-10 09:38:45:307 [ADB] Getting install status for io.appium.settings
+2019-12-10 09:38:45:308 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-12-10 09:38:45:353 [ADB] 'io.appium.settings' is installed
+2019-12-10 09:38:45:354 [ADB] Getting package info for 'io.appium.settings'
+2019-12-10 09:38:45:354 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-12-10 09:38:45:382 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/emulator/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/bin/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/vic/work/androidSDK/android-sdk-macosx'?
+2019-12-10 09:38:45:417 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.2' >= '2.14.2')
+2019-12-10 09:38:45:417 [ADB] There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2019-12-10 09:38:45:418 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-12-10 09:38:45:419 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2019-12-10 09:38:45:444 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f io\\.appium\\.settings'
+2019-12-10 09:38:45:473 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-12-10 09:38:45:473 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+2019-12-10 09:38:46:004 [Logcat] Starting logcat capture
+2019-12-10 09:38:46:038 [AndroidDriver] Enabling Unicode keyboard support
+2019-12-10 09:38:46:038 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell settings get secure default_input_method'
+2019-12-10 09:38:47:052 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2019-12-10 09:38:47:053 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2019-12-10 09:38:47:053 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell ime enable io.appium.settings/.UnicodeIME'
+2019-12-10 09:38:47:642 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell ime set io.appium.settings/.UnicodeIME'
+2019-12-10 09:38:48:774 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-12-10 09:38:48:775 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2019-12-10 09:38:48:798 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-12-10 09:38:48:798 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-12-10 09:38:48:799 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2019-12-10 09:38:48:824 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/emulator/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/bin/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/vic/work/androidSDK/android-sdk-macosx'?
+2019-12-10 09:38:48:835 [ADB] The installed 'io.appium.uiautomator2.server' package is older than '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' (1 < 41 or '0.1.9' < '4.3.0')'
+2019-12-10 09:38:48:835 [UiAutomator2] io.appium.uiautomator2.server installation state: olderVersionInstalled
+2019-12-10 09:38:48:836 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk
+2019-12-10 09:38:48:837 [ADB] Using 'apksigner' from '/Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3/apksigner'
+2019-12-10 09:38:48:838 [ADB] Starting '/Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk"]'
+2019-12-10 09:38:49:563 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-12-10 09:38:49:564 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-12-10 09:38:49:564 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-12-10 09:38:49:564 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-12-10 09:38:49:564 [ADB] 
+2019-12-10 09:38:49:565 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' is already signed.
+2019-12-10 09:38:49:565 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-12-10 09:38:49:566 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2019-12-10 09:38:49:588 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2019-12-10 09:38:49:588 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2019-12-10 09:38:49:591 [ADB] Starting '/Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2019-12-10 09:38:50:192 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-12-10 09:38:50:193 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-12-10 09:38:50:193 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-12-10 09:38:50:193 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-12-10 09:38:50:194 [ADB] 
+2019-12-10 09:38:50:194 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-12-10 09:38:50:195 [UiAutomator2] Server packages are going to be (re)installed
+2019-12-10 09:38:50:195 [UiAutomator2] Full packages reinstall is going to be performed
+2019-12-10 09:38:50:195 [ADB] Uninstalling io.appium.uiautomator2.server
+2019-12-10 09:38:50:196 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-12-10 09:38:50:197 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2019-12-10 09:38:50:226 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-12-10 09:38:50:227 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+2019-12-10 09:38:50:678 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 uninstall io.appium.uiautomator2.server'
+2019-12-10 09:38:51:012 [ADB] 'adb uninstall io.appium.uiautomator2.server' command output: Success
+2019-12-10 09:38:51:013 [ADB] io.appium.uiautomator2.server was successfully uninstalled
+2019-12-10 09:38:51:027 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell 'ls -t -1 /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2019-12-10 09:38:51:077 [ADB] The current Android API does not support extended ls options. Defaulting to no-options call
+2019-12-10 09:38:51:078 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell 'ls /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2019-12-10 09:38:51:106 [ADB] The count of applications in the cache: 5
+2019-12-10 09:38:51:107 [ADB] The application at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' is already cached to '/data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk'
+2019-12-10 09:38:51:108 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk'
+2019-12-10 09:38:52:304 [ADB] The installation of 'appium-uiautomator2-server-v4.3.0.apk' took 1.196s
+2019-12-10 09:38:52:304 [ADB] Install command stdout: pkg: /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk
+2019-12-10 09:38:52:305 [ADB] Success
+2019-12-10 09:38:52:305 [ADB] Uninstalling io.appium.uiautomator2.server.test
+2019-12-10 09:38:52:305 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-12-10 09:38:52:306 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2019-12-10 09:38:52:441 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2019-12-10 09:38:52:441 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2019-12-10 09:38:52:990 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 uninstall io.appium.uiautomator2.server.test'
+2019-12-10 09:38:53:308 [ADB] 'adb uninstall io.appium.uiautomator2.server.test' command output: Success
+2019-12-10 09:38:53:308 [ADB] io.appium.uiautomator2.server.test was successfully uninstalled
+2019-12-10 09:38:53:312 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell 'ls /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2019-12-10 09:38:53:349 [ADB] The count of applications in the cache: 5
+2019-12-10 09:38:53:354 [ADB] The application at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already cached to '/data/local/tmp/appium_cache/bb3c9a361048ff6a78cfbff9cbcb177215ea6d8b.apk'
+2019-12-10 09:38:53:355 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/bb3c9a361048ff6a78cfbff9cbcb177215ea6d8b.apk'
+2019-12-10 09:38:53:989 [ADB] The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 0.634s
+2019-12-10 09:38:53:990 [ADB] Install command stdout: pkg: /data/local/tmp/appium_cache/bb3c9a361048ff6a78cfbff9cbcb177215ea6d8b.apk
+2019-12-10 09:38:53:990 [ADB] Success
+2019-12-10 09:38:53:993 [UiAutomator2] Waiting up to 30000ms for services to be available
+2019-12-10 09:38:53:994 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+2019-12-10 09:38:54:335 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2019-12-10 09:38:54:336 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2019-12-10 09:38:54:336 [ADB] Forwarding system: 8200 to device: 6790
+2019-12-10 09:38:54:336 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:8200 tcp\:6790'
+2019-12-10 09:38:54:346 [ADB] Getting install status for com.jm.android.jumei
+2019-12-10 09:38:54:347 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.jm.android.jumei'
+2019-12-10 09:38:54:373 [ADB] 'com.jm.android.jumei' is installed
+2019-12-10 09:38:54:373 [ADB] Getting package info for 'com.jm.android.jumei'
+2019-12-10 09:38:54:374 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.jm.android.jumei'
+2019-12-10 09:38:54:400 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/emulator/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/bin/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/vic/work/androidSDK/android-sdk-macosx'?
+2019-12-10 09:38:54:415 [ADB] The version name of the installed 'com.jm.android.jumei' is greater or equal to the application version name ('8.601.0' >= '8.601.0')
+2019-12-10 09:38:54:415 [ADB] There is no need to install/upgrade '/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk'
+2019-12-10 09:38:54:415 [AndroidDriver] Performing fast reset on 'com.jm.android.jumei'
+2019-12-10 09:38:54:416 [ADB] Getting install status for com.jm.android.jumei
+2019-12-10 09:38:54:416 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.jm.android.jumei'
+2019-12-10 09:38:54:441 [ADB] 'com.jm.android.jumei' is installed
+2019-12-10 09:38:54:442 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.jm.android.jumei'
+2019-12-10 09:38:55:220 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.jm.android.jumei'
+2019-12-10 09:38:55:694 [AndroidDriver] Performed fast reset on the installed 'com.jm.android.jumei' application (stop and clear)
+2019-12-10 09:38:55:695 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2019-12-10 09:38:55:721 [UiAutomator2] No obsolete sessions have been detected (Error: read ECONNRESET)
+2019-12-10 09:38:55:721 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2019-12-10 09:38:56:199 [UiAutomator2] Starting UIAutomator2 server 4.3.0
+2019-12-10 09:38:56:199 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2019-12-10 09:38:56:200 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2019-12-10 09:38:56:200 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2019-12-10 09:38:56:663 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2019-12-10 09:38:57:212 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-12-10 09:38:57:213 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-12-10 09:38:57:220 [WD Proxy] Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-12-10 09:38:58:225 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-12-10 09:38:58:225 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-12-10 09:38:58:378 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+2019-12-10 09:38:58:378 [UiAutomator2] The initialization of the instrumentation process took 2179ms
+2019-12-10 09:38:58:379 [WD Proxy] Matched '/session' to command name 'createSession'
+2019-12-10 09:38:58:380 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"udid":"emulator-5554","app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","platformVersion":"6.0.1","platformName":"android","automationName":"uiautomator2","deviceName":"emulator-5554","noReset":false,"noSign":true,"unicodeKeyboard":true,"resetKeyboard":true},"udid":"emulator-5554","app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","platformVersion":"6.0.1","platformName":"android","automationName":"uiautomator2","deviceName":"emulator-5554","noReset":false,"noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"deviceUDID":"emulator-5554","appPackage":"com.jm.android.jumei"}],"alwaysMatch":{}}}
+2019-12-10 09:38:58:448 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"udid":"emulator-5554","app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","platformVersion":"6.0.1","platformName":"android","automationName":"uiautomator2","deviceName":"emulator-5554","noReset":false,"noSign":true,"unicodeKeyboard":true,"resetKeyboard":true},"udid":"emulator-5554","app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","platformVersion":"6.0.1","platformName":"android","automationName":"uiautomator2","deviceName":"emulator-5554","noReset":false,"noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"deviceUDID":"emulator-5554","appPackage":"com.jm.android....
+2019-12-10 09:38:58:448 [WD Proxy] Determined the downstream protocol as 'W3C'
+2019-12-10 09:38:58:459 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/appium/device/info] with no body
+2019-12-10 09:38:58:551 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"androidId":"1d7b0f2325e16c7c","manufacturer":"samsung","model":"Galaxy S8+","brand":"samsung","apiVersion":"23","platformVersion":"6.0.1","carrierName":"","realDisplaySize":"720x1280","displayDensity":320,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"\"mlGjLOv84lj\"","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-55,"networkSpecifier":null,"SSID":null}}],"locale":"zh_CN","timeZone":"Asia\/Shanghai"}}
+2019-12-10 09:38:58:551 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+2019-12-10 09:38:58:596 [AndroidDriver] Screen already unlocked, doing nothing
+2019-12-10 09:38:58:597 [UiAutomator2] Starting 'com.jm.android.jumei/com.jm.android.jumei.home.activity.StartActivity and waiting for 'com.jm.android.jumei/com.jm.android.jumei.home.activity.StartActivity'
+2019-12-10 09:38:58:598 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.jm.android.jumei/com.jm.android.jumei.home.activity.StartActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-12-10 09:39:02:673 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.jm.android.jumei' and activity: 'com.jm.android.jumei.home.activity.StartActivity' to be focused
+2019-12-10 09:39:02:674 [ADB] Possible activities, to be checked: 'com.jm.android.jumei.home.activity.StartActivity', 'com.jm.android.jumei.com.jm.android.jumei.home.activity.StartActivity'
+2019-12-10 09:39:02:674 [ADB] Getting focused package and activity
+2019-12-10 09:39:02:675 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+2019-12-10 09:39:02:726 [ADB] Found package: 'com.jm.android.jumei' and fully qualified activity name : 'com.jm.android.jumei.home.activity.StartActivity'
+2019-12-10 09:39:02:730 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/appium/device/pixel_ratio] with body: {}
+2019-12-10 09:39:02:748 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":2}
+2019-12-10 09:39:02:750 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2019-12-10 09:39:02:751 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/appium/device/system_bars] with body: {}
+2019-12-10 09:39:02:763 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"statusBar":48}}
+2019-12-10 09:39:02:764 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2019-12-10 09:39:02:764 [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/window/current/size] with body: {}
+2019-12-10 09:39:02:776 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"height":1280,"width":720}}
+2019-12-10 09:39:02:777 [Appium] New AndroidUiautomator2Driver session created successfully, session 3874698b-ca33-46e1-a972-6c79bb06a51c added to master session list
+2019-12-10 09:39:02:778 [BaseDriver] Event 'newSessionStarted' logged at 1575970742778 (17:39:02 GMT+0800 (China Standard Time))
+2019-12-10 09:39:02:779 [MJSONWP (3874698b)] Cached the protocol value 'MJSONWP' for the new session 3874698b-ca33-46e1-a972-6c79bb06a51c
+2019-12-10 09:39:02:780 [MJSONWP (3874698b)] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"udid":"emulator-5554","app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","platformVersion":"6.0.1","platformName":"android","automationName":"uiautomator2","deviceName":"emulator-5554","noReset":false,"noSign":true,"unicodeKeyboard":true,"resetKeyboard":true},"udid":"emulator-5554","app":"/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk","platformVersion":"6.0.1","platformName":"android","automationName":"uiautomator2","deviceName":"emulator-5554","noReset":false,"noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"deviceUDID":"emulator-5554","appPackage":"com.jm.android.jumei","deviceApiLevel":23,"deviceScreenSize":"720x1280","deviceScreenDensity":320,"deviceModel":"Galaxy S8+","deviceManufacturer":"samsung","...
+2019-12-10 09:39:02:784 [HTTP] <-- POST /wd/hub/session 200 18036 ms - 1187
+2019-12-10 09:39:02:784 [HTTP] 
+2019-12-10 09:39:02:869 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/appium/app/launch
+2019-12-10 09:39:02:869 [HTTP] {"sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:02:880 [MJSONWP (3874698b)] Calling AppiumDriver.launchApp() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:02:918 [ADB] Getting install status for com.jm.android.jumei
+2019-12-10 09:39:02:918 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.jm.android.jumei'
+2019-12-10 09:39:02:958 [ADB] 'com.jm.android.jumei' is installed
+2019-12-10 09:39:02:959 [ADB] Getting package info for 'com.jm.android.jumei'
+2019-12-10 09:39:02:959 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.jm.android.jumei'
+2019-12-10 09:39:03:031 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/emulator/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/tools/bin/apkanalyzer","/Users/vic/work/androidSDK/android-sdk-macosx/build-tools/28.0.3/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/vic/work/androidSDK/android-sdk-macosx'?
+2019-12-10 09:39:03:053 [ADB] The version name of the installed 'com.jm.android.jumei' is greater or equal to the application version name ('8.601.0' >= '8.601.0')
+2019-12-10 09:39:03:053 [ADB] There is no need to install/upgrade '/Users/vic/work/WORK/Work/Py_script/appium-master/app/com.jm.android.jumei_8.601_8601.apk'
+2019-12-10 09:39:03:053 [AndroidDriver] Performing fast reset on 'com.jm.android.jumei'
+2019-12-10 09:39:03:054 [ADB] Getting install status for com.jm.android.jumei
+2019-12-10 09:39:03:054 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.jm.android.jumei'
+2019-12-10 09:39:03:118 [ADB] 'com.jm.android.jumei' is installed
+2019-12-10 09:39:03:119 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.jm.android.jumei'
+2019-12-10 09:39:04:388 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.jm.android.jumei'
+2019-12-10 09:39:04:685 [AndroidDriver] Performed fast reset on the installed 'com.jm.android.jumei' application (stop and clear)
+2019-12-10 09:39:04:686 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.jm.android.jumei/com.jm.android.jumei.home.activity.StartActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-12-10 09:39:08:138 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.jm.android.jumei' and activity: 'com.jm.android.jumei.home.activity.StartActivity' to be focused
+2019-12-10 09:39:08:138 [ADB] Possible activities, to be checked: 'com.jm.android.jumei.home.activity.StartActivity', 'com.jm.android.jumei.com.jm.android.jumei.home.activity.StartActivity'
+2019-12-10 09:39:08:138 [ADB] Getting focused package and activity
+2019-12-10 09:39:08:139 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+2019-12-10 09:39:08:195 [ADB] Found package: 'com.jm.android.jumei' and fully qualified activity name : 'com.jm.android.jumei.home.activity.StartActivity'
+2019-12-10 09:39:08:196 [MJSONWP (3874698b)] Responding to client with driver.launchApp() result: null
+2019-12-10 09:39:08:198 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/appium/app/launch 200 5328 ms - 76
+2019-12-10 09:39:08:198 [HTTP] 
+2019-12-10 09:39:08:214 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:08:214 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/commit","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:08:216 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/commit","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:08:218 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:08:219 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:08:220 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:08:220 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/commit","context":"","multiple":false}
+2019-12-10 09:39:08:385 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"70375f81-0975-47d7-a835-b5c3fcb9e1ff","element-6066-11e4-a52e-4f735466cecf":"70375f81-0975-47d7-a835-b5c3fcb9e1ff"}}
+2019-12-10 09:39:08:386 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"70375f81-0975-47d7-a835-b5c3fcb9e1ff","ELEMENT":"70375f81-0975-47d7-a835-b5c3fcb9e1ff"}
+2019-12-10 09:39:08:387 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 173 ms - 199
+2019-12-10 09:39:08:387 [HTTP] 
+2019-12-10 09:39:08:390 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:08:391 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/commit","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:08:391 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/commit","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:08:393 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:08:393 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:08:394 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:08:395 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/commit","context":"","multiple":false}
+2019-12-10 09:39:08:407 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"190b5c68-829d-4b27-910e-972a907c8190","element-6066-11e4-a52e-4f735466cecf":"190b5c68-829d-4b27-910e-972a907c8190"}}
+2019-12-10 09:39:08:408 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"190b5c68-829d-4b27-910e-972a907c8190","ELEMENT":"190b5c68-829d-4b27-910e-972a907c8190"}
+2019-12-10 09:39:08:410 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 19 ms - 199
+2019-12-10 09:39:08:410 [HTTP] 
+2019-12-10 09:39:08:416 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/190b5c68-829d-4b27-910e-972a907c8190/click
+2019-12-10 09:39:08:416 [HTTP] {"id":"190b5c68-829d-4b27-910e-972a907c8190","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:08:417 [MJSONWP (3874698b)] Calling AppiumDriver.click() with args: ["190b5c68-829d-4b27-910e-972a907c8190","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:08:419 [WD Proxy] Matched '/element/190b5c68-829d-4b27-910e-972a907c8190/click' to command name 'click'
+2019-12-10 09:39:08:419 [WD Proxy] Proxying [POST /element/190b5c68-829d-4b27-910e-972a907c8190/click] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/190b5c68-829d-4b27-910e-972a907c8190/click] with body: {"element":"190b5c68-829d-4b27-910e-972a907c8190"}
+2019-12-10 09:39:08:586 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:08:587 [MJSONWP (3874698b)] Responding to client with driver.click() result: null
+2019-12-10 09:39:08:588 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/190b5c68-829d-4b27-910e-972a907c8190/click 200 171 ms - 76
+2019-12-10 09:39:08:588 [HTTP] 
+2019-12-10 09:39:08:594 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:08:595 [HTTP] {"using":"id","value":"com.android.packageinstaller:id/permission_allow_button","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:08:596 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.android.packageinstaller:id/permission_allow_button","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:08:597 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:08:598 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:08:599 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:08:599 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.android.packageinstaller:id/permission_allow_button","context":"","multiple":false}
+2019-12-10 09:39:09:134 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:09:135 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:09:137 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:09:138 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:09:139 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 544 ms - 164
+2019-12-10 09:39:09:140 [HTTP] 
+2019-12-10 09:39:09:642 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:09:642 [HTTP] {"using":"id","value":"com.android.packageinstaller:id/permission_allow_button","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:09:643 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.android.packageinstaller:id/permission_allow_button","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:09:644 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:09:644 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:09:645 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:09:645 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.android.packageinstaller:id/permission_allow_button","context":"","multiple":false}
+2019-12-10 09:39:10:250 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"5bbc7663-2436-40d0-b383-11519132fe2a","element-6066-11e4-a52e-4f735466cecf":"5bbc7663-2436-40d0-b383-11519132fe2a"}}
+2019-12-10 09:39:10:251 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5bbc7663-2436-40d0-b383-11519132fe2a","ELEMENT":"5bbc7663-2436-40d0-b383-11519132fe2a"}
+2019-12-10 09:39:10:252 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 610 ms - 199
+2019-12-10 09:39:10:252 [HTTP] 
+2019-12-10 09:39:10:255 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:10:255 [HTTP] {"using":"id","value":"com.android.packageinstaller:id/permission_allow_button","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:10:256 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.android.packageinstaller:id/permission_allow_button","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:10:258 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:10:258 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:10:259 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:10:259 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.android.packageinstaller:id/permission_allow_button","context":"","multiple":false}
+2019-12-10 09:39:10:283 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"8d60007d-fbd8-4388-9bc9-d146f424ed23","element-6066-11e4-a52e-4f735466cecf":"8d60007d-fbd8-4388-9bc9-d146f424ed23"}}
+2019-12-10 09:39:10:284 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8d60007d-fbd8-4388-9bc9-d146f424ed23","ELEMENT":"8d60007d-fbd8-4388-9bc9-d146f424ed23"}
+2019-12-10 09:39:10:285 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 30 ms - 199
+2019-12-10 09:39:10:286 [HTTP] 
+2019-12-10 09:39:10:289 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/8d60007d-fbd8-4388-9bc9-d146f424ed23/click
+2019-12-10 09:39:10:289 [HTTP] {"id":"8d60007d-fbd8-4388-9bc9-d146f424ed23","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:10:290 [MJSONWP (3874698b)] Calling AppiumDriver.click() with args: ["8d60007d-fbd8-4388-9bc9-d146f424ed23","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:10:292 [WD Proxy] Matched '/element/8d60007d-fbd8-4388-9bc9-d146f424ed23/click' to command name 'click'
+2019-12-10 09:39:10:292 [WD Proxy] Proxying [POST /element/8d60007d-fbd8-4388-9bc9-d146f424ed23/click] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/8d60007d-fbd8-4388-9bc9-d146f424ed23/click] with body: {"element":"8d60007d-fbd8-4388-9bc9-d146f424ed23"}
+2019-12-10 09:39:10:406 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:10:407 [MJSONWP (3874698b)] Responding to client with driver.click() result: null
+2019-12-10 09:39:10:408 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/8d60007d-fbd8-4388-9bc9-d146f424ed23/click 200 119 ms - 76
+2019-12-10 09:39:10:408 [HTTP] 
+2019-12-10 09:39:10:411 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:10:411 [HTTP] {"using":"id","value":"com.android.packageinstaller:id/permission_allow_button","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:10:412 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.android.packageinstaller:id/permission_allow_button","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:10:413 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:10:414 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:10:415 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:10:415 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.android.packageinstaller:id/permission_allow_button","context":"","multiple":false}
+2019-12-10 09:39:10:963 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"e2797ea9-acee-4ca4-8ee5-89266ba31a14","element-6066-11e4-a52e-4f735466cecf":"e2797ea9-acee-4ca4-8ee5-89266ba31a14"}}
+2019-12-10 09:39:10:964 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"e2797ea9-acee-4ca4-8ee5-89266ba31a14","ELEMENT":"e2797ea9-acee-4ca4-8ee5-89266ba31a14"}
+2019-12-10 09:39:10:965 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 554 ms - 199
+2019-12-10 09:39:10:965 [HTTP] 
+2019-12-10 09:39:10:968 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:10:968 [HTTP] {"using":"id","value":"com.android.packageinstaller:id/permission_allow_button","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:10:969 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.android.packageinstaller:id/permission_allow_button","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:10:971 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:10:971 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:10:972 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:10:972 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.android.packageinstaller:id/permission_allow_button","context":"","multiple":false}
+2019-12-10 09:39:12:248 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"db39fad0-fa00-445c-9ca4-07b274f16a73","element-6066-11e4-a52e-4f735466cecf":"db39fad0-fa00-445c-9ca4-07b274f16a73"}}
+2019-12-10 09:39:12:249 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"db39fad0-fa00-445c-9ca4-07b274f16a73","ELEMENT":"db39fad0-fa00-445c-9ca4-07b274f16a73"}
+2019-12-10 09:39:12:249 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 1281 ms - 199
+2019-12-10 09:39:12:250 [HTTP] 
+2019-12-10 09:39:12:251 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/db39fad0-fa00-445c-9ca4-07b274f16a73/click
+2019-12-10 09:39:12:251 [HTTP] {"id":"db39fad0-fa00-445c-9ca4-07b274f16a73","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:12:252 [MJSONWP (3874698b)] Calling AppiumDriver.click() with args: ["db39fad0-fa00-445c-9ca4-07b274f16a73","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:12:254 [WD Proxy] Matched '/element/db39fad0-fa00-445c-9ca4-07b274f16a73/click' to command name 'click'
+2019-12-10 09:39:12:254 [WD Proxy] Proxying [POST /element/db39fad0-fa00-445c-9ca4-07b274f16a73/click] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/db39fad0-fa00-445c-9ca4-07b274f16a73/click] with body: {"element":"db39fad0-fa00-445c-9ca4-07b274f16a73"}
+2019-12-10 09:39:12:270 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:12:271 [MJSONWP (3874698b)] Responding to client with driver.click() result: null
+2019-12-10 09:39:12:272 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/db39fad0-fa00-445c-9ca4-07b274f16a73/click 200 20 ms - 76
+2019-12-10 09:39:12:272 [HTTP] 
+2019-12-10 09:39:12:273 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:12:274 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/ftb_mine","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:12:275 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/ftb_mine","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:12:276 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:12:276 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:12:277 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:12:277 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/ftb_mine","context":"","multiple":false}
+2019-12-10 09:39:12:293 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:12:293 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:12:294 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:12:295 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:12:296 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 22 ms - 164
+2019-12-10 09:39:12:296 [HTTP] 
+2019-12-10 09:39:12:799 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:12:799 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/ftb_mine","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:12:800 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/ftb_mine","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:12:800 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:12:801 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:12:801 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:12:801 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/ftb_mine","context":"","multiple":false}
+2019-12-10 09:39:14:045 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:14:046 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:14:047 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:14:047 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:14:048 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 1249 ms - 164
+2019-12-10 09:39:14:049 [HTTP] 
+2019-12-10 09:39:14:553 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:14:553 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/ftb_mine","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:14:554 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/ftb_mine","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:14:556 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:14:556 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:14:557 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:14:557 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/ftb_mine","context":"","multiple":false}
+2019-12-10 09:39:15:105 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:15:106 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:15:107 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:15:107 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:15:109 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 556 ms - 164
+2019-12-10 09:39:15:109 [HTTP] 
+2019-12-10 09:39:15:613 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:15:613 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/ftb_mine","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:15:615 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/ftb_mine","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:15:616 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:15:616 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:15:617 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:15:618 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/ftb_mine","context":"","multiple":false}
+2019-12-10 09:39:16:980 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:16:981 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:16:982 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:16:982 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:16:983 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 1371 ms - 164
+2019-12-10 09:39:16:984 [HTTP] 
+2019-12-10 09:39:17:488 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:17:488 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/ftb_mine","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:17:490 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/ftb_mine","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:17:492 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:17:492 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:17:494 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:17:495 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/ftb_mine","context":"","multiple":false}
+2019-12-10 09:39:17:610 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:17:611 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:17:613 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:17:614 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:17:616 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 126 ms - 164
+2019-12-10 09:39:17:617 [HTTP] 
+2019-12-10 09:39:18:120 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:18:120 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/ftb_mine","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:18:122 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/ftb_mine","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:18:122 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:18:123 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:18:126 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:18:126 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/ftb_mine","context":"","multiple":false}
+2019-12-10 09:39:18:571 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:18:571 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:18:573 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:18:573 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:18:574 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 454 ms - 164
+2019-12-10 09:39:18:575 [HTTP] 
+2019-12-10 09:39:19:078 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:19:078 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/ftb_mine","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:19:080 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/ftb_mine","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:19:080 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:19:081 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:19:084 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:19:085 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/ftb_mine","context":"","multiple":false}
+2019-12-10 09:39:20:031 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"9e240492-22c5-4d2a-8fbc-877f8b5bec56","element-6066-11e4-a52e-4f735466cecf":"9e240492-22c5-4d2a-8fbc-877f8b5bec56"}}
+2019-12-10 09:39:20:032 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"9e240492-22c5-4d2a-8fbc-877f8b5bec56","ELEMENT":"9e240492-22c5-4d2a-8fbc-877f8b5bec56"}
+2019-12-10 09:39:20:034 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 955 ms - 199
+2019-12-10 09:39:20:034 [HTTP] 
+2019-12-10 09:39:20:036 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:20:037 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/ftb_mine","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:20:038 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/ftb_mine","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:20:040 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:20:040 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:20:042 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:20:042 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/ftb_mine","context":"","multiple":false}
+2019-12-10 09:39:20:095 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"d7e36019-16db-4ead-8a12-806d13add9dd","element-6066-11e4-a52e-4f735466cecf":"d7e36019-16db-4ead-8a12-806d13add9dd"}}
+2019-12-10 09:39:20:096 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"d7e36019-16db-4ead-8a12-806d13add9dd","ELEMENT":"d7e36019-16db-4ead-8a12-806d13add9dd"}
+2019-12-10 09:39:20:098 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 61 ms - 199
+2019-12-10 09:39:20:098 [HTTP] 
+2019-12-10 09:39:20:101 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/d7e36019-16db-4ead-8a12-806d13add9dd/click
+2019-12-10 09:39:20:102 [HTTP] {"id":"d7e36019-16db-4ead-8a12-806d13add9dd","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:20:103 [MJSONWP (3874698b)] Calling AppiumDriver.click() with args: ["d7e36019-16db-4ead-8a12-806d13add9dd","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:20:106 [WD Proxy] Matched '/element/d7e36019-16db-4ead-8a12-806d13add9dd/click' to command name 'click'
+2019-12-10 09:39:20:107 [WD Proxy] Proxying [POST /element/d7e36019-16db-4ead-8a12-806d13add9dd/click] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/d7e36019-16db-4ead-8a12-806d13add9dd/click] with body: {"element":"d7e36019-16db-4ead-8a12-806d13add9dd"}
+2019-12-10 09:39:20:293 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:20:294 [MJSONWP (3874698b)] Responding to client with driver.click() result: null
+2019-12-10 09:39:20:295 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/d7e36019-16db-4ead-8a12-806d13add9dd/click 200 194 ms - 76
+2019-12-10 09:39:20:295 [HTTP] 
+2019-12-10 09:39:20:297 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:20:298 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/mine_top_register_login_tv","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:20:299 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/mine_top_register_login_tv","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:20:301 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:20:302 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:20:302 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:20:303 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/mine_top_register_login_tv","context":"","multiple":false}
+2019-12-10 09:39:21:283 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:21:284 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:21:285 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:21:285 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:21:286 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 988 ms - 164
+2019-12-10 09:39:21:286 [HTTP] 
+2019-12-10 09:39:21:790 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:21:790 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/mine_top_register_login_tv","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:21:792 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/mine_top_register_login_tv","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:21:793 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:21:793 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:21:794 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:21:794 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/mine_top_register_login_tv","context":"","multiple":false}
+2019-12-10 09:39:23:046 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"f9a05c96-96a0-44ff-b899-188d910f2a73","element-6066-11e4-a52e-4f735466cecf":"f9a05c96-96a0-44ff-b899-188d910f2a73"}}
+2019-12-10 09:39:23:047 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"f9a05c96-96a0-44ff-b899-188d910f2a73","ELEMENT":"f9a05c96-96a0-44ff-b899-188d910f2a73"}
+2019-12-10 09:39:23:048 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 1258 ms - 199
+2019-12-10 09:39:23:049 [HTTP] 
+2019-12-10 09:39:23:052 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:23:052 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/mine_top_register_login_tv","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:23:053 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/mine_top_register_login_tv","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:23:054 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:23:055 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:23:055 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:23:056 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/mine_top_register_login_tv","context":"","multiple":false}
+2019-12-10 09:39:23:110 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"02fa143d-a838-47e6-be47-9f24d5bced68","element-6066-11e4-a52e-4f735466cecf":"02fa143d-a838-47e6-be47-9f24d5bced68"}}
+2019-12-10 09:39:23:110 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"02fa143d-a838-47e6-be47-9f24d5bced68","ELEMENT":"02fa143d-a838-47e6-be47-9f24d5bced68"}
+2019-12-10 09:39:23:111 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 59 ms - 199
+2019-12-10 09:39:23:111 [HTTP] 
+2019-12-10 09:39:23:113 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/02fa143d-a838-47e6-be47-9f24d5bced68/click
+2019-12-10 09:39:23:114 [HTTP] {"id":"02fa143d-a838-47e6-be47-9f24d5bced68","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:23:114 [MJSONWP (3874698b)] Calling AppiumDriver.click() with args: ["02fa143d-a838-47e6-be47-9f24d5bced68","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:23:116 [WD Proxy] Matched '/element/02fa143d-a838-47e6-be47-9f24d5bced68/click' to command name 'click'
+2019-12-10 09:39:23:117 [WD Proxy] Proxying [POST /element/02fa143d-a838-47e6-be47-9f24d5bced68/click] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/02fa143d-a838-47e6-be47-9f24d5bced68/click] with body: {"element":"02fa143d-a838-47e6-be47-9f24d5bced68"}
+2019-12-10 09:39:23:429 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:23:430 [MJSONWP (3874698b)] Responding to client with driver.click() result: null
+2019-12-10 09:39:23:430 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/02fa143d-a838-47e6-be47-9f24d5bced68/click 200 317 ms - 76
+2019-12-10 09:39:23:431 [HTTP] 
+2019-12-10 09:39:23:434 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:23:434 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/tab_login_account","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:23:435 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/tab_login_account","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:23:437 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:23:437 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:23:438 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:23:438 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/tab_login_account","context":"","multiple":false}
+2019-12-10 09:39:24:087 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:24:088 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:24:090 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:24:090 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:24:092 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 658 ms - 164
+2019-12-10 09:39:24:093 [HTTP] 
+2019-12-10 09:39:24:595 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:24:596 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/tab_login_account","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:24:597 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/tab_login_account","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:24:598 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:24:598 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:24:599 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:24:599 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/tab_login_account","context":"","multiple":false}
+2019-12-10 09:39:25:165 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"6cac6d8d-3f42-42dc-a43c-6a868e2a2c92","element-6066-11e4-a52e-4f735466cecf":"6cac6d8d-3f42-42dc-a43c-6a868e2a2c92"}}
+2019-12-10 09:39:25:168 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6cac6d8d-3f42-42dc-a43c-6a868e2a2c92","ELEMENT":"6cac6d8d-3f42-42dc-a43c-6a868e2a2c92"}
+2019-12-10 09:39:25:169 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 574 ms - 199
+2019-12-10 09:39:25:169 [HTTP] 
+2019-12-10 09:39:25:174 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:25:175 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/tab_login_account","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:25:176 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/tab_login_account","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:25:177 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:25:178 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:25:180 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:25:180 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/tab_login_account","context":"","multiple":false}
+2019-12-10 09:39:25:225 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"884f3dda-4c34-4149-a528-bd0c1eac5fb9","element-6066-11e4-a52e-4f735466cecf":"884f3dda-4c34-4149-a528-bd0c1eac5fb9"}}
+2019-12-10 09:39:25:226 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"884f3dda-4c34-4149-a528-bd0c1eac5fb9","ELEMENT":"884f3dda-4c34-4149-a528-bd0c1eac5fb9"}
+2019-12-10 09:39:25:227 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 53 ms - 199
+2019-12-10 09:39:25:228 [HTTP] 
+2019-12-10 09:39:25:229 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/884f3dda-4c34-4149-a528-bd0c1eac5fb9/click
+2019-12-10 09:39:25:230 [HTTP] {"id":"884f3dda-4c34-4149-a528-bd0c1eac5fb9","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:25:230 [MJSONWP (3874698b)] Calling AppiumDriver.click() with args: ["884f3dda-4c34-4149-a528-bd0c1eac5fb9","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:25:233 [WD Proxy] Matched '/element/884f3dda-4c34-4149-a528-bd0c1eac5fb9/click' to command name 'click'
+2019-12-10 09:39:25:233 [WD Proxy] Proxying [POST /element/884f3dda-4c34-4149-a528-bd0c1eac5fb9/click] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/884f3dda-4c34-4149-a528-bd0c1eac5fb9/click] with body: {"element":"884f3dda-4c34-4149-a528-bd0c1eac5fb9"}
+2019-12-10 09:39:25:289 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:25:290 [MJSONWP (3874698b)] Responding to client with driver.click() result: null
+2019-12-10 09:39:25:291 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/884f3dda-4c34-4149-a528-bd0c1eac5fb9/click 200 61 ms - 76
+2019-12-10 09:39:25:291 [HTTP] 
+2019-12-10 09:39:25:295 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:25:295 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/lg_user_name","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:25:296 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/lg_user_name","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:25:297 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:25:298 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:25:298 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:25:299 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/lg_user_name","context":"","multiple":false}
+2019-12-10 09:39:25:346 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:25:347 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:25:349 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:25:349 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:25:350 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 55 ms - 164
+2019-12-10 09:39:25:350 [HTTP] 
+2019-12-10 09:39:25:853 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:25:853 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/lg_user_name","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:25:854 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/lg_user_name","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:25:855 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:25:855 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:25:856 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:25:856 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/lg_user_name","context":"","multiple":false}
+2019-12-10 09:39:25:926 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"2eced4a6-46f1-4ebd-a4bc-80d3dfd5785d","element-6066-11e4-a52e-4f735466cecf":"2eced4a6-46f1-4ebd-a4bc-80d3dfd5785d"}}
+2019-12-10 09:39:25:927 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2eced4a6-46f1-4ebd-a4bc-80d3dfd5785d","ELEMENT":"2eced4a6-46f1-4ebd-a4bc-80d3dfd5785d"}
+2019-12-10 09:39:25:928 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 74 ms - 199
+2019-12-10 09:39:25:928 [HTTP] 
+2019-12-10 09:39:25:930 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:25:930 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/lg_user_name","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:25:931 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/lg_user_name","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:25:932 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:25:933 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:25:934 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:25:934 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/lg_user_name","context":"","multiple":false}
+2019-12-10 09:39:25:957 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"e519b06d-1bf8-44bc-adcd-f3976dde6103","element-6066-11e4-a52e-4f735466cecf":"e519b06d-1bf8-44bc-adcd-f3976dde6103"}}
+2019-12-10 09:39:25:958 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"e519b06d-1bf8-44bc-adcd-f3976dde6103","ELEMENT":"e519b06d-1bf8-44bc-adcd-f3976dde6103"}
+2019-12-10 09:39:25:959 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 29 ms - 199
+2019-12-10 09:39:25:959 [HTTP] 
+2019-12-10 09:39:25:962 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/e519b06d-1bf8-44bc-adcd-f3976dde6103/value
+2019-12-10 09:39:25:962 [HTTP] {"text":"469858846@qq.com","value":["4","6","9","8","5","8","8","4","6","@","q","q",".","c","o","m"],"id":"e519b06d-1bf8-44bc-adcd-f3976dde6103","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:25:966 [MJSONWP (3874698b)] Calling AppiumDriver.setValue() with args: [["4","6","9","8","5","8","8","4","6","@","q","q",".","c","o","m"],"e519b06d-1bf8-44bc-adcd-f3976dde6103","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:25:968 [WD Proxy] Matched '/element/e519b06d-1bf8-44bc-adcd-f3976dde6103/value' to command name 'setValue'
+2019-12-10 09:39:25:969 [Protocol Converter] Added 'value' property ["4","6","9","8","5","8","8","4","6","@","q","q",".","c","o","m"] to 'setValue' request body
+2019-12-10 09:39:25:969 [WD Proxy] Proxying [POST /element/e519b06d-1bf8-44bc-adcd-f3976dde6103/value] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/e519b06d-1bf8-44bc-adcd-f3976dde6103/value] with body: {"elementId":"e519b06d-1bf8-44bc-adcd-f3976dde6103","text":"469858846@qq.com","replace":false,"unicodeKeyboard":true,"value":["4","6","9","8","5","8","8","4","6","@","q","q",".","c","o","m"]}
+2019-12-10 09:39:26:503 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:26:504 [MJSONWP (3874698b)] Responding to client with driver.setValue() result: null
+2019-12-10 09:39:26:505 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/e519b06d-1bf8-44bc-adcd-f3976dde6103/value 200 543 ms - 76
+2019-12-10 09:39:26:505 [HTTP] 
+2019-12-10 09:39:26:506 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:26:507 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/lg_password","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:26:507 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/lg_password","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:26:508 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:26:508 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:26:509 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:26:509 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/lg_password","context":"","multiple":false}
+2019-12-10 09:39:27:010 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"892e52f6-312e-4bcb-999d-699b8a3fef16","element-6066-11e4-a52e-4f735466cecf":"892e52f6-312e-4bcb-999d-699b8a3fef16"}}
+2019-12-10 09:39:27:011 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"892e52f6-312e-4bcb-999d-699b8a3fef16","ELEMENT":"892e52f6-312e-4bcb-999d-699b8a3fef16"}
+2019-12-10 09:39:27:012 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 505 ms - 199
+2019-12-10 09:39:27:012 [HTTP] 
+2019-12-10 09:39:27:016 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:27:016 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/lg_password","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:27:017 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/lg_password","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:27:019 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:27:019 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:27:020 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:27:020 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/lg_password","context":"","multiple":false}
+2019-12-10 09:39:27:038 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"0c009583-3ce9-4f17-8ea7-723f604297db","element-6066-11e4-a52e-4f735466cecf":"0c009583-3ce9-4f17-8ea7-723f604297db"}}
+2019-12-10 09:39:27:039 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"0c009583-3ce9-4f17-8ea7-723f604297db","ELEMENT":"0c009583-3ce9-4f17-8ea7-723f604297db"}
+2019-12-10 09:39:27:042 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 26 ms - 199
+2019-12-10 09:39:27:043 [HTTP] 
+2019-12-10 09:39:27:045 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/0c009583-3ce9-4f17-8ea7-723f604297db/value
+2019-12-10 09:39:27:045 [HTTP] {"text":"ZWwodeai1314","value":["Z","W","w","o","d","e","a","i","1","3","1","4"],"id":"0c009583-3ce9-4f17-8ea7-723f604297db","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:27:045 [MJSONWP (3874698b)] Calling AppiumDriver.setValue() with args: [["Z","W","w","o","d","e","a","i","1","3","1","4"],"0c009583-3ce9-4f17-8ea7-723f604297db","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:27:048 [WD Proxy] Matched '/element/0c009583-3ce9-4f17-8ea7-723f604297db/value' to command name 'setValue'
+2019-12-10 09:39:27:048 [Protocol Converter] Added 'value' property ["Z","W","w","o","d","e","a","i","1","3","1","4"] to 'setValue' request body
+2019-12-10 09:39:27:049 [WD Proxy] Proxying [POST /element/0c009583-3ce9-4f17-8ea7-723f604297db/value] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/0c009583-3ce9-4f17-8ea7-723f604297db/value] with body: {"elementId":"0c009583-3ce9-4f17-8ea7-723f604297db","text":"ZWwodeai1314","replace":false,"unicodeKeyboard":true,"value":["Z","W","w","o","d","e","a","i","1","3","1","4"]}
+2019-12-10 09:39:27:070 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:27:071 [MJSONWP (3874698b)] Responding to client with driver.setValue() result: null
+2019-12-10 09:39:27:072 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/0c009583-3ce9-4f17-8ea7-723f604297db/value 200 27 ms - 76
+2019-12-10 09:39:27:072 [HTTP] 
+2019-12-10 09:39:27:074 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:27:074 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/login_account","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:27:075 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/login_account","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:27:077 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:27:077 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:27:078 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:27:078 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/login_account","context":"","multiple":false}
+2019-12-10 09:39:27:093 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"b028dc1e-13fc-48e5-ab0f-a285429ef420","element-6066-11e4-a52e-4f735466cecf":"b028dc1e-13fc-48e5-ab0f-a285429ef420"}}
+2019-12-10 09:39:27:094 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"b028dc1e-13fc-48e5-ab0f-a285429ef420","ELEMENT":"b028dc1e-13fc-48e5-ab0f-a285429ef420"}
+2019-12-10 09:39:27:095 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 21 ms - 199
+2019-12-10 09:39:27:095 [HTTP] 
+2019-12-10 09:39:27:097 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:27:097 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/login_account","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:27:098 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/login_account","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:27:099 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:27:099 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:27:100 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:27:100 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/login_account","context":"","multiple":false}
+2019-12-10 09:39:27:674 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"ba125c1e-28cb-4170-96b3-de51d1a1c360","element-6066-11e4-a52e-4f735466cecf":"ba125c1e-28cb-4170-96b3-de51d1a1c360"}}
+2019-12-10 09:39:27:674 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"ba125c1e-28cb-4170-96b3-de51d1a1c360","ELEMENT":"ba125c1e-28cb-4170-96b3-de51d1a1c360"}
+2019-12-10 09:39:27:675 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 578 ms - 199
+2019-12-10 09:39:27:675 [HTTP] 
+2019-12-10 09:39:27:678 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/ba125c1e-28cb-4170-96b3-de51d1a1c360/click
+2019-12-10 09:39:27:678 [HTTP] {"id":"ba125c1e-28cb-4170-96b3-de51d1a1c360","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:27:679 [MJSONWP (3874698b)] Calling AppiumDriver.click() with args: ["ba125c1e-28cb-4170-96b3-de51d1a1c360","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:27:681 [WD Proxy] Matched '/element/ba125c1e-28cb-4170-96b3-de51d1a1c360/click' to command name 'click'
+2019-12-10 09:39:27:681 [WD Proxy] Proxying [POST /element/ba125c1e-28cb-4170-96b3-de51d1a1c360/click] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/ba125c1e-28cb-4170-96b3-de51d1a1c360/click] with body: {"element":"ba125c1e-28cb-4170-96b3-de51d1a1c360"}
+2019-12-10 09:39:27:697 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:27:697 [MJSONWP (3874698b)] Responding to client with driver.click() result: null
+2019-12-10 09:39:27:698 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/ba125c1e-28cb-4170-96b3-de51d1a1c360/click 200 20 ms - 76
+2019-12-10 09:39:27:699 [HTTP] 
+2019-12-10 09:39:27:701 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:27:702 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/mine_card_header","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:27:702 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/mine_card_header","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:27:704 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:27:704 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:27:705 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:27:705 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/mine_card_header","context":"","multiple":false}
+2019-12-10 09:39:29:268 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2019-12-10 09:39:29:269 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2019-12-10 09:39:29:270 [MJSONWP (3874698b)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-12-10 09:39:29:270 [MJSONWP (3874698b)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2019-12-10 09:39:29:271 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 500 1569 ms - 164
+2019-12-10 09:39:29:271 [HTTP] 
+2019-12-10 09:39:29:773 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:29:773 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/mine_card_header","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:29:774 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/mine_card_header","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:29:774 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:29:774 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:29:775 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:29:775 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/mine_card_header","context":"","multiple":false}
+2019-12-10 09:39:31:193 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"8e329bdb-2e9d-4877-9ee5-4ec5ec06d269","element-6066-11e4-a52e-4f735466cecf":"8e329bdb-2e9d-4877-9ee5-4ec5ec06d269"}}
+2019-12-10 09:39:31:194 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8e329bdb-2e9d-4877-9ee5-4ec5ec06d269","ELEMENT":"8e329bdb-2e9d-4877-9ee5-4ec5ec06d269"}
+2019-12-10 09:39:31:195 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 1422 ms - 199
+2019-12-10 09:39:31:195 [HTTP] 
+2019-12-10 09:39:31:200 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/window/current/size
+2019-12-10 09:39:31:200 [HTTP] {}
+2019-12-10 09:39:31:202 [MJSONWP (3874698b)] Driver proxy active, passing request on via HTTP proxy
+2019-12-10 09:39:31:204 [WD Proxy] Matched '/wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/window/current/size' to command name 'getWindowSize'
+2019-12-10 09:39:31:204 [WD Proxy] Proxying [GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/window/current/size] to [GET http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/window/current/size] with body: {}
+2019-12-10 09:39:31:228 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"height":1280,"width":720}}
+2019-12-10 09:39:31:229 [WD Proxy] Replacing sessionId 91f46e78-a35b-41da-940f-e5f181ad382e with 3874698b-ca33-46e1-a972-6c79bb06a51c
+2019-12-10 09:39:31:231 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/window/current/size 200 30 ms - 99
+2019-12-10 09:39:31:231 [HTTP] 
+2019-12-10 09:39:31:234 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/window/current/size
+2019-12-10 09:39:31:234 [HTTP] {}
+2019-12-10 09:39:31:235 [MJSONWP (3874698b)] Driver proxy active, passing request on via HTTP proxy
+2019-12-10 09:39:31:237 [WD Proxy] Matched '/wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/window/current/size' to command name 'getWindowSize'
+2019-12-10 09:39:31:237 [WD Proxy] Proxying [GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/window/current/size] to [GET http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/window/current/size] with body: {}
+2019-12-10 09:39:31:261 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"height":1280,"width":720}}
+2019-12-10 09:39:31:262 [WD Proxy] Replacing sessionId 91f46e78-a35b-41da-940f-e5f181ad382e with 3874698b-ca33-46e1-a972-6c79bb06a51c
+2019-12-10 09:39:31:263 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/window/current/size 200 28 ms - 99
+2019-12-10 09:39:31:263 [HTTP] 
+2019-12-10 09:39:31:266 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/touch/perform
+2019-12-10 09:39:31:266 [HTTP] {"actions":[{"action":"press","options":{"x":360,"y":960}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":360,"y":320}},{"action":"release","options":{}}],"sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:31:272 [MJSONWP (3874698b)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":360,"y":960}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":360,"y":320}},{"action":"release","options":{}}],"3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:31:278 [WD Proxy] Matched '/touch/perform' to command name 'performTouch'
+2019-12-10 09:39:31:279 [WD Proxy] Proxying [POST /touch/perform] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/touch/perform] with body: {"startX":360,"startY":960,"endX":360,"endY":320,"steps":22}
+2019-12-10 09:39:32:886 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:32:887 [MJSONWP (3874698b)] Responding to client with driver.performTouch() result: null
+2019-12-10 09:39:32:888 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/touch/perform 200 1622 ms - 76
+2019-12-10 09:39:32:889 [HTTP] 
+2019-12-10 09:39:32:890 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:32:891 [HTTP] {"using":"xpath","value":"//*[@text='颜值贷']","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:32:891 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='颜值贷']","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:32:893 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:32:893 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:32:894 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:32:894 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"xpath","selector":"//*[@text='颜值贷']","context":"","multiple":false}
+2019-12-10 09:39:33:988 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"781b6be8-fbaf-4b60-9f07-0ced12269a13","element-6066-11e4-a52e-4f735466cecf":"781b6be8-fbaf-4b60-9f07-0ced12269a13"}}
+2019-12-10 09:39:33:989 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"781b6be8-fbaf-4b60-9f07-0ced12269a13","ELEMENT":"781b6be8-fbaf-4b60-9f07-0ced12269a13"}
+2019-12-10 09:39:33:990 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 1099 ms - 199
+2019-12-10 09:39:33:990 [HTTP] 
+2019-12-10 09:39:33:992 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:39:33:992 [HTTP] {"using":"xpath","value":"//*[@text='颜值贷']","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:33:993 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='颜值贷']","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:33:994 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:39:33:994 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:39:33:995 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:39:33:995 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"xpath","selector":"//*[@text='颜值贷']","context":"","multiple":false}
+2019-12-10 09:39:34:496 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac","element-6066-11e4-a52e-4f735466cecf":"d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac"}}
+2019-12-10 09:39:34:497 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac","ELEMENT":"d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac"}
+2019-12-10 09:39:34:498 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 506 ms - 199
+2019-12-10 09:39:34:499 [HTTP] 
+2019-12-10 09:39:34:501 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac/click
+2019-12-10 09:39:34:501 [HTTP] {"id":"d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:34:501 [MJSONWP (3874698b)] Calling AppiumDriver.click() with args: ["d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:34:503 [WD Proxy] Matched '/element/d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac/click' to command name 'click'
+2019-12-10 09:39:34:503 [WD Proxy] Proxying [POST /element/d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac/click] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac/click] with body: {"element":"d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac"}
+2019-12-10 09:39:34:547 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:34:548 [MJSONWP (3874698b)] Responding to client with driver.click() result: null
+2019-12-10 09:39:34:549 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/d670ea5f-4dc6-42a3-bd36-3f6ec47d08ac/click 200 48 ms - 76
+2019-12-10 09:39:34:549 [HTTP] 
+2019-12-10 09:39:39:552 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/touch/multi/perform
+2019-12-10 09:39:39:552 [HTTP] {"actions":[[{"action":"longPress","options":{"x":206,"y":574,"duration":100}},{"action":"release","options":{}}],[{"action":"longPress","options":{"x":514,"y":652,"duration":100}},{"action":"release","options":{}}]],"sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:39:553 [MJSONWP (3874698b)] Calling AppiumDriver.performMultiAction() with args: [[[{"action":"longPress","options":{"x":206,"y":574,"duration":100}},{"action":"release","options":{}}],[{"action":"longPress","options":{"x":514,"y":652,"duration":100}},{"action":"release","options":{}}]],null,"3874698b-ca33-46e1-a972-6c79bb06a51c",null,"3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:39:557 [WD Proxy] Matched '/touch/multi/perform' to command name 'performMultiAction'
+2019-12-10 09:39:39:557 [WD Proxy] Proxying [POST /touch/multi/perform] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/touch/multi/perform] with body: {"actions":[[{"action":"longPress","time":0.005,"touch":{"x":206,"y":574}}],[{"action":"longPress","time":0.005,"touch":{"x":514,"y":652}}]]}
+2019-12-10 09:39:40:540 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:40:541 [MJSONWP (3874698b)] Responding to client with driver.performMultiAction() result: null
+2019-12-10 09:39:40:542 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/touch/multi/perform 200 989 ms - 76
+2019-12-10 09:39:40:542 [HTTP] 
+2019-12-10 09:39:44:769 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/touch/multi/perform
+2019-12-10 09:39:44:769 [HTTP] {"actions":[[{"action":"longPress","options":{"x":206,"y":574,"duration":100}},{"action":"release","options":{}}],[{"action":"longPress","options":{"x":514,"y":652,"duration":100}},{"action":"release","options":{}}]],"sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:39:44:769 [MJSONWP (3874698b)] Calling AppiumDriver.performMultiAction() with args: [[[{"action":"longPress","options":{"x":206,"y":574,"duration":100}},{"action":"release","options":{}}],[{"action":"longPress","options":{"x":514,"y":652,"duration":100}},{"action":"release","options":{}}]],null,"3874698b-ca33-46e1-a972-6c79bb06a51c",null,"3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:44:772 [WD Proxy] Matched '/touch/multi/perform' to command name 'performMultiAction'
+2019-12-10 09:39:44:772 [WD Proxy] Proxying [POST /touch/multi/perform] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/touch/multi/perform] with body: {"actions":[[{"action":"longPress","time":0.005,"touch":{"x":206,"y":574}}],[{"action":"longPress","time":0.005,"touch":{"x":514,"y":652}}]]}
+2019-12-10 09:39:45:611 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:39:45:612 [MJSONWP (3874698b)] Responding to client with driver.performMultiAction() result: null
+2019-12-10 09:39:45:613 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/touch/multi/perform 200 844 ms - 76
+2019-12-10 09:39:45:613 [HTTP] 
+2019-12-10 09:39:52:448 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:39:52:449 [HTTP] {}
+2019-12-10 09:39:52:449 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:52:451 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:39:52:452 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:39:52:496 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:39:52:496 [AndroidDriver] Found webviews: []
+2019-12-10 09:39:52:497 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:39:52:498 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:39:52:499 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 50 ms - 86
+2019-12-10 09:39:52:499 [HTTP] 
+2019-12-10 09:39:52:501 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:39:52:501 [HTTP] {}
+2019-12-10 09:39:52:502 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:52:503 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:39:52:504 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:39:52:549 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:39:52:550 [AndroidDriver] Found webviews: []
+2019-12-10 09:39:52:550 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:39:52:551 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:39:52:552 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 51 ms - 86
+2019-12-10 09:39:52:552 [HTTP] 
+2019-12-10 09:39:55:556 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:39:55:556 [HTTP] {}
+2019-12-10 09:39:55:557 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:55:559 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:39:55:559 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:39:55:586 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:39:55:587 [AndroidDriver] Found webviews: []
+2019-12-10 09:39:55:588 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:39:55:589 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:39:55:591 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 34 ms - 86
+2019-12-10 09:39:55:591 [HTTP] 
+2019-12-10 09:39:55:593 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:39:55:593 [HTTP] {}
+2019-12-10 09:39:55:594 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:55:596 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:39:55:596 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:39:55:620 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:39:55:620 [AndroidDriver] Found webviews: []
+2019-12-10 09:39:55:621 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:39:55:621 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:39:55:623 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 29 ms - 86
+2019-12-10 09:39:55:623 [HTTP] 
+2019-12-10 09:39:58:626 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:39:58:626 [HTTP] {}
+2019-12-10 09:39:58:626 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:58:627 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:39:58:628 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:39:58:644 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:39:58:645 [AndroidDriver] Found webviews: []
+2019-12-10 09:39:58:645 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:39:58:645 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:39:58:647 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 20 ms - 86
+2019-12-10 09:39:58:647 [HTTP] 
+2019-12-10 09:39:58:648 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:39:58:648 [HTTP] {}
+2019-12-10 09:39:58:649 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:39:58:650 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:39:58:651 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:39:58:669 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:39:58:670 [AndroidDriver] Found webviews: []
+2019-12-10 09:39:58:670 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:39:58:671 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:39:58:672 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 23 ms - 86
+2019-12-10 09:39:58:672 [HTTP] 
+2019-12-10 09:40:01:676 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:01:676 [HTTP] {}
+2019-12-10 09:40:01:676 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:01:679 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:01:680 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:01:706 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:01:707 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:01:707 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:01:708 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:01:709 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 33 ms - 86
+2019-12-10 09:40:01:709 [HTTP] 
+2019-12-10 09:40:01:710 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:01:711 [HTTP] {}
+2019-12-10 09:40:01:711 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:01:712 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:01:712 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:01:729 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:01:731 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:01:731 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:01:732 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:01:733 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 22 ms - 86
+2019-12-10 09:40:01:733 [HTTP] 
+2019-12-10 09:40:04:735 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:04:735 [HTTP] {}
+2019-12-10 09:40:04:736 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:04:737 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:04:738 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:04:768 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:04:768 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:04:768 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:04:769 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:04:771 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 35 ms - 86
+2019-12-10 09:40:04:771 [HTTP] 
+2019-12-10 09:40:04:773 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:04:774 [HTTP] {}
+2019-12-10 09:40:04:775 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:04:776 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:04:776 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:04:799 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:04:800 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:04:800 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:04:801 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:04:803 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 29 ms - 86
+2019-12-10 09:40:04:803 [HTTP] 
+2019-12-10 09:40:07:806 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:07:806 [HTTP] {}
+2019-12-10 09:40:07:807 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:07:809 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:07:811 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:07:856 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:07:857 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:07:857 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:07:859 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:07:860 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 54 ms - 86
+2019-12-10 09:40:07:861 [HTTP] 
+2019-12-10 09:40:07:863 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:07:863 [HTTP] {}
+2019-12-10 09:40:07:864 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:07:865 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:07:867 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:07:904 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:07:905 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:07:905 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:07:906 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:07:908 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 44 ms - 86
+2019-12-10 09:40:07:909 [HTTP] 
+2019-12-10 09:40:10:912 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:10:913 [HTTP] {}
+2019-12-10 09:40:10:913 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:10:915 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:10:915 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:10:933 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:10:934 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:10:934 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:10:934 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:10:936 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 23 ms - 86
+2019-12-10 09:40:10:936 [HTTP] 
+2019-12-10 09:40:10:938 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:10:938 [HTTP] {}
+2019-12-10 09:40:10:939 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:10:940 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:10:940 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:10:960 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:10:960 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:10:961 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:10:961 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:10:963 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 25 ms - 86
+2019-12-10 09:40:10:963 [HTTP] 
+2019-12-10 09:40:13:965 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:13:965 [HTTP] {}
+2019-12-10 09:40:13:966 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:13:967 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:13:967 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:13:985 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:13:986 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:13:986 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:13:986 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:13:987 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 22 ms - 86
+2019-12-10 09:40:13:988 [HTTP] 
+2019-12-10 09:40:13:989 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:13:989 [HTTP] {}
+2019-12-10 09:40:13:992 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:13:994 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:13:994 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:14:014 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:14:015 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:14:015 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:14:015 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:14:016 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 27 ms - 86
+2019-12-10 09:40:14:016 [HTTP] 
+2019-12-10 09:40:17:020 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:17:020 [HTTP] {}
+2019-12-10 09:40:17:020 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:17:022 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:17:022 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:17:037 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:17:038 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:17:038 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:17:039 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:17:040 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 20 ms - 86
+2019-12-10 09:40:17:042 [HTTP] 
+2019-12-10 09:40:17:043 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts
+2019-12-10 09:40:17:043 [HTTP] {}
+2019-12-10 09:40:17:043 [MJSONWP (3874698b)] Calling AppiumDriver.getContexts() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:17:045 [AndroidDriver] Getting a list of available webviews
+2019-12-10 09:40:17:045 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+2019-12-10 09:40:17:061 [AndroidDriver] Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2019-12-10 09:40:17:061 [AndroidDriver] Found webviews: []
+2019-12-10 09:40:17:061 [AndroidDriver] Available contexts: ["NATIVE_APP"]
+2019-12-10 09:40:17:062 [MJSONWP (3874698b)] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2019-12-10 09:40:17:063 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/contexts 200 20 ms - 86
+2019-12-10 09:40:17:063 [HTTP] 
+2019-12-10 09:40:17:065 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:40:17:066 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/title","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:40:17:066 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/title","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:17:067 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:40:17:068 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:40:17:070 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:40:17:070 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/title","context":"","multiple":false}
+2019-12-10 09:40:17:167 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"7773669c-d5eb-4841-8096-52daa01c2da1","element-6066-11e4-a52e-4f735466cecf":"7773669c-d5eb-4841-8096-52daa01c2da1"}}
+2019-12-10 09:40:17:168 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7773669c-d5eb-4841-8096-52daa01c2da1","ELEMENT":"7773669c-d5eb-4841-8096-52daa01c2da1"}
+2019-12-10 09:40:17:169 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 103 ms - 199
+2019-12-10 09:40:17:169 [HTTP] 
+2019-12-10 09:40:17:173 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:40:17:174 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/title","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:40:17:174 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/title","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:17:177 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:40:17:178 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:40:17:179 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:40:17:180 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/title","context":"","multiple":false}
+2019-12-10 09:40:17:197 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"55d0e965-e5d8-4204-9cb5-4ffc18809361","element-6066-11e4-a52e-4f735466cecf":"55d0e965-e5d8-4204-9cb5-4ffc18809361"}}
+2019-12-10 09:40:17:198 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"55d0e965-e5d8-4204-9cb5-4ffc18809361","ELEMENT":"55d0e965-e5d8-4204-9cb5-4ffc18809361"}
+2019-12-10 09:40:17:198 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 25 ms - 199
+2019-12-10 09:40:17:199 [HTTP] 
+2019-12-10 09:40:17:201 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/55d0e965-e5d8-4204-9cb5-4ffc18809361/click
+2019-12-10 09:40:17:201 [HTTP] {"id":"55d0e965-e5d8-4204-9cb5-4ffc18809361","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:40:17:202 [MJSONWP (3874698b)] Calling AppiumDriver.click() with args: ["55d0e965-e5d8-4204-9cb5-4ffc18809361","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:17:204 [WD Proxy] Matched '/element/55d0e965-e5d8-4204-9cb5-4ffc18809361/click' to command name 'click'
+2019-12-10 09:40:17:204 [WD Proxy] Proxying [POST /element/55d0e965-e5d8-4204-9cb5-4ffc18809361/click] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element/55d0e965-e5d8-4204-9cb5-4ffc18809361/click] with body: {"element":"55d0e965-e5d8-4204-9cb5-4ffc18809361"}
+2019-12-10 09:40:17:222 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:40:17:223 [MJSONWP (3874698b)] Responding to client with driver.click() result: null
+2019-12-10 09:40:17:223 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element/55d0e965-e5d8-4204-9cb5-4ffc18809361/click 200 23 ms - 76
+2019-12-10 09:40:17:224 [HTTP] 
+2019-12-10 09:40:17:225 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element
+2019-12-10 09:40:17:225 [HTTP] {"using":"id","value":"com.jm.android.jumei:id/title","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:40:17:226 [MJSONWP (3874698b)] Calling AppiumDriver.findElement() with args: ["id","com.jm.android.jumei:id/title","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:17:227 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-12-10 09:40:17:227 [BaseDriver] Waiting up to 0 ms for condition
+2019-12-10 09:40:17:229 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-12-10 09:40:17:229 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/element] with body: {"strategy":"id","selector":"com.jm.android.jumei:id/title","context":"","multiple":false}
+2019-12-10 09:40:17:251 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":{"ELEMENT":"473ef896-320f-4af1-8776-099f12ad2704","element-6066-11e4-a52e-4f735466cecf":"473ef896-320f-4af1-8776-099f12ad2704"}}
+2019-12-10 09:40:17:252 [MJSONWP (3874698b)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"473ef896-320f-4af1-8776-099f12ad2704","ELEMENT":"473ef896-320f-4af1-8776-099f12ad2704"}
+2019-12-10 09:40:17:253 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/element 200 27 ms - 199
+2019-12-10 09:40:17:254 [HTTP] 
+2019-12-10 09:40:17:256 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/context
+2019-12-10 09:40:17:256 [HTTP] {"name":"NATIVE_APP","sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:40:17:258 [MJSONWP (3874698b)] Calling AppiumDriver.setContext() with args: ["NATIVE_APP","3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:17:260 [MJSONWP (3874698b)] Responding to client with driver.setContext() result: null
+2019-12-10 09:40:17:260 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/context 200 4 ms - 76
+2019-12-10 09:40:17:260 [HTTP] 
+2019-12-10 09:40:18:319 [HTTP] --> GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/screenshot
+2019-12-10 09:40:18:320 [HTTP] {}
+2019-12-10 09:40:18:320 [MJSONWP (3874698b)] Calling AppiumDriver.getScreenshot() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:18:322 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2019-12-10 09:40:18:323 [WD Proxy] Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e/screenshot] with no body
+2019-12-10 09:40:18:744 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd8FGX+B\/DPluym9w7EUEMNRboCQqhSBBTxLOjJHZ4KiMIPUEEjoBQF9c6uYIE7RUV6lRbp\nvYaEEEghIT3ZZNO2ZPf3R9gxm2ySnWSTbOTzfr14vXZnZ555wrOTfOc7T5FERkYaQXYlMjISkZGR\nTV0NqoTtYp\/YLvaJ7WKfIiMjkRga2tTVoEpCExPZLnbou+eeq\/YzaeNVg4iIiIio+WMATUREREQk\nAgNoIiIiIiIRGEATEREREYkgN73Izs5GRkZGlR0UCgUCAgLg7u5e75Op1WrExsZCrVbD0dER7dq1\ng7+\/f53KiomJgYuLC0JCQqw+JiEhAX5+fnB1da3TOe3N0qVL4erqildffRUqlQqpqamQSqXo1KmT\nxf2zsrKQmZkJBwcHdOjQoU7nrG8b2vI7YK8qtsuNGzeg1WoREBAAX19fi\/ubrj1HR0e0bdtW9PnY\nJuUa6xqwFtulXGNcA9Zim5i7qdMhRqs12yYB4CyVopNCgUCZrGkqVoMTpaVo7+AAXxF1yywrw77i\nYqTr9XCXSjHEyQlhCkUD1tI2NEYj9hYX45ZOBwmAUAcHjHZ2hlIiMdvvulaL3cXFmOrqiiC53HJh\nTeyv2G7C\/3RsbCz2799vcSeJRIJWrVphxIgRaNWqVZ1OdPHiRezduxclJSXCtgMHDqB\/\/\/4YMWKE\nqLLi4+OxceNGPPTQQ7UG0Lm5ubhw4QJiY2ORlZWF6dOn\/2UC6IoUCgX27duH\/Px8jBkzBv369auy\nz6ZNm5Ceno7+\/fvXKXiobxva8jvQXNy4cQOnT59GaGgonqtmNO+OHTuQmJiIgQMHig4e2CZ\/aoxr\nwFpslz819DV...
+2019-12-10 09:40:18:747 [MJSONWP (3874698b)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd8FGX+B/DPluym9w7EUEMNRboCQqhSBBTxLOjJHZ4KiMIPUEEjoBQF9c6uYIE7RUV6lRbp\nvYaEEEghIT3ZZNO2ZPf3R9gxm2ySnWSTbOTzfr14vXZnZ555wrOTfOc7T5FERkYaQXYlMjISkZGR\nTV0NqoTtYp/YLvaJ7WKfIiMjkRga2tTVoEpCExPZLnbou+eeq/YzaeNVg4iIiIio+WMATUREREQk\nAgNoIiIiIiIRGEATEREREYkgN73Izs5GRkZGlR0UCgUCAgLg7u5e75Op1WrExsZCrVbD0dER7dq1\ng7+/f53KiomJgYuLC0JCQqw+JiEhAX5+fnB1da3TOe3N0qVL4erqildffRUqlQqpqamQSqXo1KmT\nxf2zsrKQmZkJBwcHdOjQoU7nrG8b2vI7YK8qtsuNGzeg1WoREBAAX19fi/ubrj1HR0e0bdtW9PnY\nJuUa6xqwFtulXGNcA9Zim5i7qdMhRqs12yYB4CyVopNCgUCZrGkqVoMTpaVo7+AAXxF1yywrw77i\nYqTr9XCXSjHEyQlhCkUD1tI2NEYj9hYX45ZOBwmAUAcHjHZ2hlIiMdvvulaL3cXFmOrqiiC53HJh\nTeyv2G7C/3RsbCz2799vcSeJRIJWrVphxIgRaNWqVZ1OdPHiRezduxclJSXCtgMHDqB///4YMWKE\nqLLi4+OxceNGPPTQQ7UG0Lm5ubhw4QJiY2ORlZWF6dOn/2UC6IoUCgX27duH/Px8jBkzBv369auy\nz6ZNm5Ceno7+/fvXKXiobxva8jvQXNy4cQOnT59GaGgonqtmNO+OHTuQmJiIgQMHig4e2CZ/aoxr\nwFpslz819DVgLbZJVfuKi7EyL8/iZ1IAvZRKvOHtjV5KZeNWrJIkvR4/q9XYW1yMeJ0Om4KCrA7E\nNhUWYk...
+2019-12-10 09:40:18:749 [HTTP] <-- GET /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/screenshot 200 429 ms - 140976
+2019-12-10 09:40:18:749 [HTTP] 
+2019-12-10 09:40:18:754 [HTTP] --> POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/appium/app/close
+2019-12-10 09:40:18:754 [HTTP] {"sessionId":"3874698b-ca33-46e1-a972-6c79bb06a51c"}
+2019-12-10 09:40:18:755 [MJSONWP (3874698b)] Calling AppiumDriver.closeApp() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:18:756 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.jm.android.jumei'
+2019-12-10 09:40:19:669 [MJSONWP (3874698b)] Responding to client with driver.closeApp() result: null
+2019-12-10 09:40:19:672 [HTTP] <-- POST /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c/appium/app/close 200 917 ms - 76
+2019-12-10 09:40:19:672 [HTTP] 
+2019-12-10 09:40:19:675 [HTTP] --> DELETE /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c
+2019-12-10 09:40:19:675 [HTTP] {}
+2019-12-10 09:40:19:675 [MJSONWP (3874698b)] Calling AppiumDriver.deleteSession() with args: ["3874698b-ca33-46e1-a972-6c79bb06a51c"]
+2019-12-10 09:40:19:676 [BaseDriver] Event 'quitSessionRequested' logged at 1575970819676 (17:40:19 GMT+0800 (China Standard Time))
+2019-12-10 09:40:19:677 [Appium] Removing session 3874698b-ca33-46e1-a972-6c79bb06a51c from our master session list
+2019-12-10 09:40:19:677 [UiAutomator2] Deleting UiAutomator2 session
+2019-12-10 09:40:19:678 [UiAutomator2] Deleting UiAutomator2 server session
+2019-12-10 09:40:19:679 [WD Proxy] Matched '/' to command name 'deleteSession'
+2019-12-10 09:40:19:679 [WD Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/91f46e78-a35b-41da-940f-e5f181ad382e] with no body
+2019-12-10 09:40:19:723 [WD Proxy] Got response with status 200: {"sessionId":"91f46e78-a35b-41da-940f-e5f181ad382e","value":null}
+2019-12-10 09:40:19:724 [UiAutomator2] Resetting IME to 'io.appium.settings/.UnicodeIME'
+2019-12-10 09:40:19:724 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell ime set io.appium.settings/.UnicodeIME'
+2019-12-10 09:40:19:808 [Instrumentation] .
+2019-12-10 09:40:20:351 [Instrumentation] Time: 83.158
+2019-12-10 09:40:20:351 [Instrumentation] 
+2019-12-10 09:40:20:352 [Instrumentation] OK (1 test)
+2019-12-10 09:40:20:582 [Instrumentation] The process has exited with code 0
+2019-12-10 09:40:20:841 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.jm.android.jumei'
+2019-12-10 09:40:21:591 [Logcat] Stopping logcat capture
+2019-12-10 09:40:21:595 [ADB] Removing forwarded port socket connection: 8200 
+2019-12-10 09:40:21:595 [ADB] Running '/Users/vic/work/androidSDK/android-sdk-macosx/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:8200'
+2019-12-10 09:40:21:666 [BaseDriver] Event 'quitSessionFinished' logged at 1575970821666 (17:40:21 GMT+0800 (China Standard Time))
+2019-12-10 09:40:21:667 [MJSONWP (3874698b)] Received response: null
+2019-12-10 09:40:21:668 [MJSONWP (3874698b)] But deleting session, so not returning
+2019-12-10 09:40:21:668 [MJSONWP (3874698b)] Responding to client with driver.deleteSession() result: null
+2019-12-10 09:40:21:669 [HTTP] <-- DELETE /wd/hub/session/3874698b-ca33-46e1-a972-6c79bb06a51c 200 1994 ms - 76
+2019-12-10 09:40:21:669 [HTTP] 
