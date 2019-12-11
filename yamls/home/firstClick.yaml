@@ -60,11 +60,41 @@ testcase:
       operate_type: adb_tap
       info: 点击我知道了
       is_time: 3
-    - element_info: com.jm.android.jumei:id/title
-      find_type: id
-      is_webview: 1
-      operate_type: click
-      info: 切换
+    - element_info: 200,305
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击输入金额
+      is_time: 3
+    - element_info: '1000'
+      find_type: touch_tap
+      operate_type: input_tap
+      info: 点击输入金额2
+      is_time: 3
+    - element_info: 608,440
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击期数
+      is_time: 3
+    - element_info: 665,880
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击期数
+      is_time: 3
+    - element_info: 610,795
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击银行卡
+      is_time: 3
+    - element_info: 240,960
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击银行卡
+      is_time: 3
+    - element_info: 365,1230
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击确定
+      is_time: 3
 #    - element_info: com.jm.android.jumei:id/title
 #      find_type: id
 #      is_webview: 2
@@ -72,7 +102,7 @@ testcase:
 #      info: 切换
 
 check:
-    - element_info: com.jm.android.jumei:id/title
-      find_type: id
+    - element_info: //*[@text='申请借款']
+      find_type: xpath
       check: default_check
-      info: check用户名
+      info: check

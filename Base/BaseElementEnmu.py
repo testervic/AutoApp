@@ -13,6 +13,7 @@ class Element(object):
     TOUCH_TAP = "touch_tap"
     ACCESSIBILITY = "accessibility"
     ADB_TAP = "adb_tap"
+    INPUT_TAP = "input_tap"
     SWIPE_DOWN = "swipe_down"
     SWIPE_UP = "swipe_up"
     SWIPE_LEFT = "swipe_left"

@@ -100,6 +100,7 @@ class OperateElement:
                 be.GET_VALUE: lambda: self.get_value(operate),
                 be.SET_VALUE: lambda: self.set_value(operate),
                 be.ADB_TAP: lambda: self.adb_tap(operate, device),
+                be.INPUT_TAP: lambda: self.input_tap(operate),
                 be.GET_CONTENT_DESC: lambda: self.get_content_desc(operate),
                 be.PRESS_KEY_CODE: lambda: self.press_keycode(operate),
                 be.TOUCH_TAP: lambda: self.touch_tap(operate)
@@ -133,11 +134,12 @@ class OperateElement:
         x_y = mOperate['element_info']
         adb_x = x_y.split(',')[0]
         adb_y = x_y.split(',')[1]
-        # bounds = self.elements_by(mOperate).location
-        # x = str(bounds["x"]+20)
-        # y = str(bounds["y"]+20)
-        #cmd = "adb -s " + device + " shell input tap " + x + " " + y
         cmd = "adb -s " + device + " shell input tap " + adb_x + " " + adb_y
+
+        # bounds = self.elements_by(mOperate).location
+        # x = str(bounds["x"])
+        # y = str(bounds["y"])
+        # cmd = "adb -s " + device + " shell input tap " + x + " " + y
         print(cmd)
         os.system(cmd)
         return {"result": True}
@@ -153,6 +155,32 @@ class OperateElement:
         print("已执行")
         #print(cmd)
         #os.system(cmd)
+        return {"result": True}
+
+    # adb输入文字
+    def input_tap(self, mOperate):
+        text = mOperate['element_info']
+        print("text:")
+        print(text)
+        # adb_x = x_y.split(',')[0]
+        # adb_y = x_y.split(',')[1]
+        # bounds = self.elements_by(mOperate).location
+        # x = str(bounds["x"]+20)
+        # y = str(bounds["y"]+20)
+        #cmd = "adb -s " + device + " shell input tap " + x + " " + y
+
+        # screen_width = self.driver.get_window_size()['width']  #获取当前屏幕的宽
+        # screen_height = self.driver.get_window_size()['height']   #获取当前屏幕的高
+        # a =(float(x)/screen_width)*screen_width
+        # x1 = int(a)
+        # b = (float(y)/screen_height)*screen_height
+        # y1 = int(b)
+        # self.driver.tap([(x1,y1),(x1,y1)],duration)
+        os.system('adb shell ime set com.android.adbkeyboard/.AdbIME')
+        cmd = "adb shell am broadcast -a ADB_INPUT_TEXT --es msg " + "'"+text+"'"
+        #cmd = "adb -s " + device + " shell input tap " + adb_x + " " + adb_y
+        print(cmd)
+        os.system(cmd)
         return {"result": True}
 
     def toast(self, xpath, logTest, testInfo):

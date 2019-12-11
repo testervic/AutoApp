@@ -44,6 +44,7 @@ def appium_testcase(devices):
     remote = "http://127.0.0.1:" + str(devices["port"]) + "/wd/hub"
     # remote = "http://127.0.0.1:" + "4723" + "/wd/hub"
     driver = webdriver.Remote(remote, desired_caps)
+    print(str(devices["port"])+'test')
     return driver
 
 
