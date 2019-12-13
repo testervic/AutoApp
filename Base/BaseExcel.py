@@ -1,6 +1,6 @@
 import xlsxwriter
 import os
-
+from Base.BaseLog import *
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
@@ -9,6 +9,7 @@ PATH = lambda p: os.path.abspath(
 class OperateReport:
     def __init__(self, wd):
         self.wd = wd
+
 
     def init(self, worksheet, data, devices):
         # 设置列行的宽高
@@ -38,7 +39,7 @@ class OperateReport:
         define_format_H2.set_color("#ffffff")
 
         worksheet.merge_range('A1:E1', '测试报告总概况', define_format_H1)
-        worksheet.merge_range('A2:E2', 'WebLink知识测试概括', define_format_H2)
+        worksheet.merge_range('A2:E2', '聚美优品-颜值贷', define_format_H2)
 
         _write_center(worksheet, "A3", 'versionCode', self.wd)
         _write_center(worksheet, "A4", 'versionName', self.wd)
@@ -78,6 +79,8 @@ class OperateReport:
         pie(self.wd, worksheet)
 
     def detail(self, worksheet, info):
+        # checkNo =0
+        # screenshotName = Log.getScreenshotName(checkNo)
         # 设置列行的宽高
         worksheet.set_column("A:A", 30)
         worksheet.set_column("B:B", 20)
@@ -109,15 +112,15 @@ class OperateReport:
         _write_center(worksheet, "C2", '用例介绍', self.wd)
         _write_center(worksheet, "D2", '用例函数', self.wd)
         _write_center(worksheet, "E2", '前置条件', self.wd)
-        _write_center(worksheet, "F2", '操作步骤 ', self.wd)
-        _write_center(worksheet, "G2", '检查点 ', self.wd)
-        _write_center(worksheet, "H2", '测试结果 ', self.wd)
-        _write_center(worksheet, "I2", '备注 ', self.wd)
-        _write_center(worksheet, "J2", '', self.wd)
+        _write_center(worksheet, "F2", '操作步骤', self.wd)
+        _write_center(worksheet, "G2", '检查点', self.wd)
+        _write_center(worksheet, "H2", '测试结果', self.wd)
+        _write_center(worksheet, "I2", '截图', self.wd)
+        _write_center(worksheet, "J2", '备注', self.wd)
 
         temp = 3
         for item in info:
-            # print(item)
+            #print(item)
             _write_center(worksheet, "A" + str(temp), item["phoneName"], self.wd)
             _write_center(worksheet, "B" + str(temp), item["id"], self.wd)
             _write_center(worksheet, "C" + str(temp), item["title"], self.wd)
@@ -126,14 +129,15 @@ class OperateReport:
             _write_center(worksheet, "F" + str(temp), item["step"], self.wd)
             _write_center(worksheet, "G" + str(temp), item["checkStep"], self.wd)
             _write_center(worksheet, "H" + str(temp), item["result"], self.wd)
-            _write_center(worksheet, "I" + str(temp), item.get("msg", ""), self.wd)
+            _write_center(worksheet, "I" + str(temp), "", self.wd)
+            _write_center(worksheet, "J" + str(temp), item.get("msg", ""), self.wd)
             if item.get("img", "false") == "false":
-                _write_center(worksheet, "J" + str(temp), "", self.wd)
+                _write_center(worksheet, "I" + str(temp), "", self.wd)
                 worksheet.set_row(temp, 30)
             else:
-                worksheet.insert_image('J' + str(temp), item["img"],
-                                       {'x_scale': 0.1, 'y_scale': 0.1, 'border': 1})
-                worksheet.set_row(temp - 1, 110)
+                worksheet.insert_image('I' + str(temp), item["img"],
+                                       {'x_scale': 0.2, 'y_scale': 0.2, 'border': 1})
+                worksheet.set_row(temp - 1, 200)
             temp = temp + 1
 
     def close(self):

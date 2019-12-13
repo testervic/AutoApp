@@ -70,7 +70,7 @@ def runnerCaseApp(devices):
 
 
 if __name__ == '__main__':
-    i=0
+    i=1
     while True:
         kill_adb()
         devicess = AndroidDebugBridge().attached_devices()
@@ -102,11 +102,11 @@ if __name__ == '__main__':
                 isSend()
                 break
             else:
-                i+=1
-
                 time.sleep(5)
-                if i>3:
-                    print("执行失败重试三次，第"+str(i)+"次......")
+                print("执行失败重试三次，第" + str(i) + "次......")
+                i+=1
+                if i>=3:
+                    print("执行失败")
                     break
         else:
             print("没有可用的安卓设备")
