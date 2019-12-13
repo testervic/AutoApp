@@ -1,4 +1,3 @@
-__author__ = 'shikun'
 import xlsxwriter
 import os
 

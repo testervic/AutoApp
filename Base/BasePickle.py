@@ -1,4 +1,4 @@
-__author__ = "shikun"
+
 import pickle
 import os
 

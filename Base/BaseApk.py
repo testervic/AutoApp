@@ -1,6 +1,4 @@
 import re
-
-__author__ = 'shikun'
 from math import floor
 import subprocess
 import os

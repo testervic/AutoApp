@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-
-__author__ = 'shikun'
 import sys
 
 sys.path.append("..")

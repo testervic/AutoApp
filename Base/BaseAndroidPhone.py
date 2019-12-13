@@ -1,6 +1,5 @@
 
 # -*- coding: utf-8 -*-
-__author__ = 'shikun'
 import os
 import re
 import math
