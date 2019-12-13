@@ -58,7 +58,7 @@ def isSend():
     port = "465"
     header_msg = "UiTestingReport_" + now2
     attach = "附件为测试报告详情\n该邮件为系统自动发送，请勿回复。"
-    report = PATH("../Report/Report.xlsx")
+    report = PATH("../Report/ReportDetail.xlsx")
 
     # 发送邮件
     send_mail(to_addr=to_addr, mail_host=mail_host, mail_user=mail_user, mail_pass=mail_pass,port=port,header_msg=header_msg, report=report, attach=attach, report_name="UiTestingReportDetail_"+now+".xlsx")
@@ -66,7 +66,7 @@ def isSend():
 
 #excel转html
 def excel_to_html(filepath):
-    xd = pd.ExcelFile(PATH("../Report/Report.xlsx"))
+    xd = pd.ExcelFile(PATH("../Report/ReportDetail.xlsx"))
     df = xd.parse()
     with codecs.open(PATH("../Report/Report.html"), 'w', 'utf-8') as html_file:
         html_file.write(df.to_html(header=True, index=False))
@@ -82,5 +82,5 @@ if __name__ == '__main__':
     port = "465"
     header_msg = "UiTesting"
     attach = "UiTesting"
-    report = PATH("../Report/Report.xlsx")
+    report = PATH("../Report/ReportDetail.xlsx")
     send_mail(to_addr = to_addr, mail_host = mail_host, mail_user=mail_user, port=port, mail_pass=mail_pass, header_msg=header_msg, report=report, attach=attach, report_name="接口测试报告.xlsx")

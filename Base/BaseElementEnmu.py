@@ -45,4 +45,4 @@ class Element(object):
     INFO_FILE = "info.pickle"
     SUM_FILE = "sum.pickle"
     DEVICES_FILE = "devices.pickle"
-    REPORT_FILE = "Report.xlsx"
+    REPORT_FILE = "ReportDetail.xlsx"

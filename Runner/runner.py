@@ -93,7 +93,7 @@ if __name__ == '__main__':
             #print(l_devices)
             runnerPool(l_devices)
             writeExcel()
-            filepath = PATH("../Report/Report.xlsx")
+            filepath = PATH("../Report/ReportDetail.xlsx")
             excel_to_html(filepath)
             appium_server.stop_server(l_devices)
             data = getData()

@@ -187,7 +187,7 @@ if __name__ == '__main__':
     info = [{"id": 1, "title": "第一次打开", "caseName": "testf01", "result": "通过", "phoneName": "三星"},
             {"id": 1, "title": "第一次打开",
              "caseName": "testf01", "result": "通过", "img": "d:\\1.PNG", "phoneName": "华为"}]
-    workbook = xlsxwriter.Workbook('Report.xlsx')
+    workbook = xlsxwriter.Workbook('ReportDetail.xlsx')
     worksheet = workbook.add_worksheet("测试总况")
     worksheet2 = workbook.add_worksheet("测试详情")
     bc = OperateReport(wd=workbook)
