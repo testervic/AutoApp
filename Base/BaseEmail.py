@@ -70,7 +70,7 @@ def excel_to_html(filepath):
     df = xd.parse()
     with codecs.open(PATH("../Report/Report.html"), 'w', 'utf-8') as html_file:
         html_file.write(df.to_html(header=True, index=False))
-    file = open('../Report/Report.html').read()
+    file = open(PATH("../Report/Report.html")).read()
     return file
 
 

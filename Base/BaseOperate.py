@@ -363,6 +363,6 @@ class OperateElement:
             be.TOUCH_TAP: lambda: self.driver.tap([(206,574),(514,652)], 100)
 
         }
-        print("mOper：")
-        print(mOperate)
+        #print("mOper：")
+        #print(mOperate)
         return elements[mOperate["find_type"]]()
