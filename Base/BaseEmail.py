@@ -36,7 +36,7 @@ def send_mail(**kwargs):
     msg['To'] = _format_addr(' <%s>' % kwargs["to_addr"])
     msg['Subject'] = Header(kwargs["header_msg"], 'utf-8').encode()
     msg.attach(MIMEText(kwargs["attach"], 'plain', 'utf-8'))
-    file = open('../Report/Report.html').read()
+    file = open(PATH('../Report/Report.html')).read()
     msg.attach(MIMEText(file, 'html', 'utf-8'))
 
     if kwargs.get("report", "0") != "0":
