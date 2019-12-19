@@ -108,8 +108,8 @@ check:
       check: default_check
       info: check
 
-check:
-    - element_info: com.jm.android.jumei:id/ftb_mine
-      find_type: id
-      check: default_check
-      info: check
+#check:
+#    - element_info: com.jm.android.jumei:id/ftb_mine
+#      find_type: id
+#      check: default_check
+#      info: check
