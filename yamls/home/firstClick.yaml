@@ -15,98 +15,98 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击允许
-#    - element_info: com.jm.android.jumei:id/ftb_mine
-#      find_type: id
-#      operate_type: click
-#      info: 进入个人中心
-#    - element_info: com.jm.android.jumei:id/mine_top_register_login_tv
-#      find_type: id
-#      operate_type: click
-#      info: 点击登录
-#    - element_info: com.jm.android.jumei:id/tab_login_account
-#      find_type: id
-#      operate_type: click
-#      info: 点击账号密码登录
-#    - element_info: com.jm.android.jumei:id/lg_user_name
-#      find_type: id
-#      operate_type: set_value
-#      msg: "469858846@qq.com"
-#      info: 输入账号
-#    - element_info: com.jm.android.jumei:id/lg_password
-#      find_type: id
-#      operate_type: set_value
-#      msg: "ZWwodeai1314"
-#      info: 输入密码
-#    - element_info: com.jm.android.jumei:id/login_account
-#      find_type: id
-#      operate_type: click
-#      info: 点击登录
-#    - element_info: com.jm.android.jumei:id/mine_card_header
-#      find_type: id
-#      operate_type: swipe_up
-#      info: 向上滑动
-#    - element_info: //*[@text='颜值贷']
-#      find_type: xpath
-#      operate_type: click
-#      info: 点击颜值贷
-#      is_time: 5
-#    - element_info: 360,700
-#      find_type: touch_tap
-#      operate_type: adb_tap
-#      info: 点击借款
-#      is_time: 3
-#    - element_info: 370,870
-#      find_type: touch_tap
-#      operate_type: adb_tap
-#      info: 点击我知道了
-#      is_time: 3
-#    - element_info: 200,305
-#      find_type: touch_tap
-#      operate_type: adb_tap
-#      info: 点击输入金额
-#      is_time: 3
-#    - element_info: '1000'
-#      find_type: touch_tap
-#      operate_type: input_tap
-#      info: 点击输入金额2
-#      is_time: 3
-#    - element_info: 608,440
-#      find_type: touch_tap
-#      operate_type: adb_tap
-#      info: 点击期数
-#      is_time: 3
-#    - element_info: 665,880
-#      find_type: touch_tap
-#      operate_type: adb_tap
-#      info: 点击期数
-#      is_time: 3
-#    - element_info: 610,795
-#      find_type: touch_tap
-#      operate_type: adb_tap
-#      info: 点击银行卡
-#      is_time: 3
-#    - element_info: 240,960
-#      find_type: touch_tap
-#      operate_type: adb_tap
-#      info: 点击银行卡
-#      is_time: 3
-#    - element_info: 365,1230
-#      find_type: touch_tap
-#      operate_type: adb_tap
-#      info: 点击确定
-#      is_time: 3
+    - element_info: com.jm.android.jumei:id/ftb_mine
+      find_type: id
+      operate_type: click
+      info: 进入个人中心
+    - element_info: com.jm.android.jumei:id/mine_top_register_login_tv
+      find_type: id
+      operate_type: click
+      info: 点击登录
+    - element_info: com.jm.android.jumei:id/tab_login_account
+      find_type: id
+      operate_type: click
+      info: 点击账号密码登录
+    - element_info: com.jm.android.jumei:id/lg_user_name
+      find_type: id
+      operate_type: set_value
+      msg: "469858846@qq.com"
+      info: 输入账号
+    - element_info: com.jm.android.jumei:id/lg_password
+      find_type: id
+      operate_type: set_value
+      msg: "ZWwodeai1314"
+      info: 输入密码
+    - element_info: com.jm.android.jumei:id/login_account
+      find_type: id
+      operate_type: click
+      info: 点击登录
+    - element_info: com.jm.android.jumei:id/mine_card_header
+      find_type: id
+      operate_type: swipe_up
+      info: 向上滑动
+    - element_info: //*[@text='颜值贷']
+      find_type: xpath
+      operate_type: click
+      info: 点击颜值贷
+      is_time: 5
+    - element_info: 360,700
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击借款
+      is_time: 3
+    - element_info: 370,870
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击我知道了
+      is_time: 3
+    - element_info: 200,305
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击输入金额
+      is_time: 3
+    - element_info: '1000'
+      find_type: touch_tap
+      operate_type: input_tap
+      info: 点击输入金额2
+      is_time: 3
+    - element_info: 608,440
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击期数
+      is_time: 3
+    - element_info: 665,880
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击期数
+      is_time: 3
+    - element_info: 610,795
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击银行卡
+      is_time: 3
+    - element_info: 240,960
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击银行卡
+      is_time: 3
+    - element_info: 365,1230
+      find_type: touch_tap
+      operate_type: adb_tap
+      info: 点击确定
+      is_time: 3
 
-#    - element_info: com.jm.android.jumei:id/title
-#      find_type: id
-#      is_webview: 2
-#      #operate_type: click
-#      info: 切换
+    - element_info: com.jm.android.jumei:id/title
+      find_type: id
+      is_webview: 2
+      #operate_type: click
+      info: 切换
 
-#check:
-#    - element_info: //*[@text='申请借款']
-#      find_type: xpath
-#      check: default_check
-#      info: check
+check:
+    - element_info: //*[@text='申请借款']
+      find_type: xpath
+      check: default_check
+      info: check
 
 check:
     - element_info: com.jm.android.jumei:id/ftb_mine
