@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoApp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/AutoApp.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/appium.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/appium.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/info.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Log/info.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Log/sum.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportDetail.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportDetail.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +307,7 @@
       <workItem from="1575942093976" duration="48351000" />
       <workItem from="1576487764642" duration="2039000" />
       <workItem from="1576553860401" duration="5185000" />
-      <workItem from="1576808352078" duration="2300000" />
+      <workItem from="1576808352078" duration="2660000" />
     </task>
     <servers />
   </component>
