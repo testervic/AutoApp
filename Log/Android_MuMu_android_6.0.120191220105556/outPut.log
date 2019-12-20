@@ -1,0 +1,30 @@
+2019-12-20 10:56:05,024  - INFO - ----  test001_登录title_com.jm.android.jumei:id/commit_click          ----
+2019-12-20 10:56:07,554  - INFO - ----  test001_登录title_com.android.packageinstaller:id/permission_allow_button_click          ----
+2019-12-20 10:56:08,317  - INFO - ----  test001_登录title_com.android.packageinstaller:id/permission_allow_button_click          ----
+2019-12-20 10:56:17,883  - INFO - ----  test001_登录title_com.jm.android.jumei:id/ftb_mine_click          ----
+2019-12-20 10:56:20,277  - INFO - ----  test001_登录title_com.jm.android.jumei:id/mine_top_register_login_tv_click          ----
+2019-12-20 10:56:22,314  - INFO - ----  test001_登录title_com.jm.android.jumei:id/tab_login_account_click          ----
+2019-12-20 10:56:43,796  - INFO - ----  testFirstClick_失败重连        ----
+2019-12-20 10:56:50,183  - INFO - ----  test001_登录title_com.jm.android.jumei:id/commit_click          ----
+2019-12-20 10:56:51,385  - INFO - ----  test001_登录title_com.android.packageinstaller:id/permission_allow_button_click          ----
+2019-12-20 10:56:51,912  - INFO - ----  test001_登录title_com.android.packageinstaller:id/permission_allow_button_click          ----
+2019-12-20 10:56:59,193  - INFO - ----  test001_登录title_com.jm.android.jumei:id/ftb_mine_click          ----
+2019-12-20 10:57:04,463  - INFO - ----  test001_登录title_com.jm.android.jumei:id/mine_top_register_login_tv_click          ----
+2019-12-20 10:57:06,623  - INFO - ----  test001_登录title_com.jm.android.jumei:id/tab_login_account_click          ----
+2019-12-20 10:57:07,318  - INFO - ----  test001_登录title_com.jm.android.jumei:id/lg_user_name_set_value 469858846@qq.com        ----
+2019-12-20 10:57:08,383  - INFO - ----  test001_登录title_com.jm.android.jumei:id/lg_password_set_value ZWwodeai1314        ----
+2019-12-20 10:57:09,050  - INFO - ----  test001_登录title_com.jm.android.jumei:id/login_account_click          ----
+2019-12-20 10:57:13,237  - INFO - ----  test001_登录title_com.jm.android.jumei:id/mine_card_header_swipe_up          ----
+2019-12-20 10:57:15,393  - INFO - ----  test001_登录title_//*[@text='颜值贷']_click          ----
+2019-12-20 10:57:21,733  - INFO - ----  test001_登录title_360,700_adb_tap          ----
+2019-12-20 10:57:26,416  - INFO - ----  test001_登录title_370,870_adb_tap          ----
+2019-12-20 10:57:31,164  - INFO - ----  test001_登录title_200,305_adb_tap          ----
+2019-12-20 10:57:36,268  - INFO - ----  test001_登录title_1000_input_tap          ----
+2019-12-20 10:57:42,128  - INFO - ----  test001_登录title_608,440_adb_tap          ----
+2019-12-20 10:57:46,534  - INFO - ----  test001_登录title_665,880_adb_tap          ----
+2019-12-20 10:57:50,977  - INFO - ----  test001_登录title_610,795_adb_tap          ----
+2019-12-20 10:57:55,499  - INFO - ----  test001_登录title_240,960_adb_tap          ----
+2019-12-20 10:57:59,812  - INFO - ----  test001_登录title_365,1230_adb_tap          ----
+2019-12-20 10:58:03,399  - INFO - ----  test001_登录title_com.jm.android.jumei:id/title_           ----
+2019-12-20 10:58:03,853  - INFO - ----  test001_登录title_//*[@text='申请借款']_           ----
+2019-12-20 10:58:03,944  - INFO - [CheckPoint_1]: testFirstClick_用例失败重连过一次，失败原因:执行过程中失败，请检查元素是否存在com.jm.android.jumei:id/lg_user_name, : OK

@@ -69,7 +69,7 @@ def runnerCaseApp(devices):
 
 
 
-if __name__ == '__main__':
+def runner():
     i=1
     while True:
         kill_adb()
@@ -103,11 +103,11 @@ if __name__ == '__main__':
                 break
             else:
                 time.sleep(5)
-                print("执行失败重试三次，第" + str(i) + "次......")
                 i+=1
-                if i>=3:
+                if i==4:
                     print("执行失败")
                     break
+                print("执行失败重试三次，第" + str(i) + "次......")
         else:
             print("没有可用的安卓设备")
             break

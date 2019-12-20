@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/~$ReportDetail.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yamls/home/firstClick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yamls/home/firstClick.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoApp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/AutoApp.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/appium.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/appium.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/info.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Log/info.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Log/sum.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/ReportDetail.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportDetail.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -312,6 +317,7 @@
       <workItem from="1575942093976" duration="48351000" />
       <workItem from="1576487764642" duration="2039000" />
       <workItem from="1576553860401" duration="5185000" />
+      <workItem from="1576808352078" duration="2300000" />
     </task>
     <servers />
   </component>
@@ -378,7 +384,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/appium_master$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1576228894145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />
-    <SUITE FILE_PATH="coverage/appium_master$main.coverage" NAME="main Coverage Results" MODIFIED="1576808368028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/appium_master$main.coverage" NAME="main Coverage Results" MODIFIED="1576824910195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/appium_master$test_vic.coverage" NAME="test_vic Coverage Results" MODIFIED="1576038478398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />
     <SUITE FILE_PATH="coverage/appium_master$BaseEmail.coverage" NAME="BaseEmail Coverage Results" MODIFIED="1575365437572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/appium_master$email.coverage" NAME="email Coverage Results" MODIFIED="1575434596956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />

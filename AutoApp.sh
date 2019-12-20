@@ -1,7 +1,7 @@
 #!/usr/bin/bash -ilex
 open /Applications/NemuPlayer.app
 echo "等待模拟器..."
-sleep 15
+#sleep 5
 declare -i i=0
 declare -i j=0
 SSHD=`ps -ef |grep NemuHeadless | awk '{print $11}'`
@@ -39,4 +39,20 @@ do
 done
 echo "运行代码..."
 python3 /Users/vic/.jenkins/workspace/GetAutoAppCode/main.py
-exit 1
+sleep 5
+cd /Users/vic/.jenkins/workspace/GetAutoAppCode/Log
+TEXT=`ls -lt *Android* | head -n 1`
+log_name=${TEXT%%:*}
+#echo "$TEXT"
+echo "$log_name"
+cd $log_name
+result=`tail -n 2 outPut.log | grep CheckPoint outPut.log |grep OK`
+if [[ "$result"!="" ]]
+	then
+		echo "$result"
+		echo "运行成功"
+		exit 0
+	else
+		echo "运行失败"
+		exit 1
+fi
