@@ -39,4 +39,4 @@ do
 done
 echo "运行代码..."
 python3 /Users/vic/.jenkins/workspace/GetAutoAppCode/main.py
-exit 0
+exit 1
