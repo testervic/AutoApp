@@ -1,0 +1,111 @@
+#刷宝卡case：验证刷宝卡已开卡业务流程
+testinfo:
+    - id: test001
+      title: 刷宝卡流程
+      info: 打开app
+testcase:
+    - element_info: com.jm.video:id/textGo
+      find_type: id
+      operate_type: click
+      info: 点击去授权
+    - element_info: com.android.packageinstaller:id/permission_allow_button
+      find_type: id
+      operate_type: click
+      info: 点击允许
+    - element_info: com.android.packageinstaller:id/permission_allow_button
+      find_type: id
+      operate_type: click
+      info: 点击允许
+    - element_info: com.android.packageinstaller:id/permission_allow_button
+      find_type: id
+      operate_type: click
+      info: 点击允许
+      is_time: 5
+    - element_info: //*[@text='我']
+      find_type: xpath
+      operate_type: click
+      info: 点击我
+    - element_info: com.jm.video:id/login_edit
+      find_type: id
+      operate_type: set_value
+      msg: "18681378808"
+      info: 输入手机号
+    - element_info: com.jm.video:id/btn_login
+      find_type: id
+      operate_type: click
+      info: 点击下一步
+      is_time: 3
+    - element_info: com.jm.video:id/login_edit
+      find_type: id
+      #index: 3
+      operate_type: set_value
+      msg: "1234"
+      info: 输入密码
+      is_time: 3
+    - element_info: com.jm.video:id/imgClose
+      find_type: id
+      operate_type: click
+      info: 关闭弹窗
+      is_time: 3
+    - element_info: //*[@text='我']
+      find_type: xpath
+      operate_type: click
+      info: 点击我
+      is_time: 3
+    - element_info: com.jm.video:id/tv_expand
+      find_type: id
+      operate_type: swipe_up
+      info: 向上滑动
+    - element_info: com.jm.video:id/tv_expand
+      find_type: id
+      operate_type: click
+      info: 点击展开
+    - element_info: com.jm.video:id/tv_expand
+      find_type: id
+      operate_type: swipe_up
+      info: 向上滑动
+    - element_info: //*[@text='刷宝卡']
+      find_type: xpath
+      operate_type: click
+      info: 点击刷宝卡
+      is_time: 3
+    - element_info: .//*[@id="app"]/div/div[3]/div[1]/div[2]
+      find_type: xpath
+      is_webview: 1 # 切换到webview
+      info: 查找提取现金元素并切换webview
+      is_time: 3
+    - element_info: .//*[@id="app"]/div/div[3]/div[1]/div[2]
+      find_type: xpath
+      operate_type: click
+      info: 点击提取现金
+      is_time: 3
+    - element_info: com.jm.video:id/btn_back
+      find_type: id
+      is_webview: 2 # 切换到webview
+      operate_type: click
+      info: 点击返回
+      is_time: 3
+    - element_info: com.jm.video:id/tv_title
+      find_type: id
+      operate_type: swipe_up
+      info: 向上滑动
+      is_time: 3
+    - element_info: .//*[@id="app"]/div/div[9]/div/img
+      find_type: xpath
+      is_webview: 1
+      operate_type: click
+      info: 点击banner
+      is_time: 3
+    - element_info: com.jm.video:id/btn_back
+      find_type: id
+      is_webview: 2
+      operate_type: click
+      info: 点击返回
+      is_time: 3
+
+
+check:
+    - element_info: com.jm.video:id/tv_title
+      find_type: id
+      check: default_check
+      info: 断点首页额度
